@@ -1,0 +1,158 @@
+[
+  {
+    "id": "soil-test",
+    "category": "Soil",
+    "title": "Never fertilise blind — get a soil test",
+    "body": "A soil test every 2–3 years is the cheapest yield investment a farmer can make. Test for pH, organic carbon, available N-P-K, sulphur, zinc and boron. Apply fertiliser to the actual deficiency rather than a fixed general dose. On average, farmers who follow soil-test-based fertiliser recommendations use 15–25% less fertiliser for the same or higher yield."
+  },
+  {
+    "id": "organic-matter",
+    "category": "Soil",
+    "title": "Farmyard manure and compost build long-term fertility",
+    "body": "Apply 5–10 tonnes of well-decomposed FYM or compost per hectare before sowing. Organic matter improves water holding capacity, feeds soil microbes, buffers pH and slowly releases nutrients. On sandy soils it can raise the water holding capacity by 20–30%, which is worth more than an extra irrigation."
+  },
+  {
+    "id": "green-manure",
+    "category": "Soil",
+    "title": "Grow a green manure before a heavy feeder",
+    "body": "Sow dhaincha (Sesbania), sunhemp or cowpea about 45 days before the main crop and incorporate it at flowering. A good green manure crop adds 40–60 kg of nitrogen per hectare plus valuable organic matter. It is the cheapest way to build soil health before rice, maize or sugarcane."
+  },
+  {
+    "id": "crop-rotation",
+    "category": "Soil",
+    "title": "Rotate cereals with pulses to break pest cycles",
+    "body": "Grow a legume in at least one season of a three-year rotation. Rotation interrupts the life cycle of soil-borne pathogens and nematodes, restores nitrogen, and diversifies risk. A cereal–pulse–oilseed rotation is a solid, resilient plan for most Indian farms."
+  },
+  {
+    "id": "mulching",
+    "category": "Water",
+    "title": "Mulching saves a third of your irrigation water",
+    "body": "Spread straw, dry leaves, crop residue or plastic mulch between rows. Mulch cuts surface evaporation, keeps the root zone cooler, and suppresses weeds. In summer crops, mulch can reduce irrigation needs by 25–35% and often increases the yield as well."
+  },
+  {
+    "id": "drip-fertigation",
+    "category": "Water",
+    "title": "Drip plus fertigation is the highest-return water investment",
+    "body": "Drip irrigation can save 40–60% of water compared with flood irrigation and raise yields by 15–30% by keeping the root zone at the right moisture. Feeding soluble fertiliser through the drip (fertigation) in small weekly doses cuts fertiliser use by 30% and avoids leaching. Subsidies are available for drip installation in most states."
+  },
+  {
+    "id": "irrigate-early",
+    "category": "Water",
+    "title": "Irrigate in the early morning",
+    "body": "Early morning irrigation loses the least water to evaporation, avoids the disease risk of wet foliage overnight, and lets the crop photosynthesise with an unstressed root zone for the rest of the day. Evening irrigation in humid weather invites blight and leaf spot."
+  },
+  {
+    "id": "awd-rice",
+    "category": "Water",
+    "title": "Alternate Wetting and Drying for rice",
+    "body": "Instead of keeping rice continuously flooded, let the water drop to about 15 cm below the soil surface before re-flooding. This AWD practice saves 20–30% of irrigation water, reduces methane emissions, and strengthens roots with little or no yield loss. Stop AWD at flowering and keep the field flooded then."
+  },
+  {
+    "id": "integrated-pest",
+    "category": "Pest & Disease",
+    "title": "Scout before you spray",
+    "body": "Walk your field twice a week and check a representative sample of plants. Spray only when you actually find the pest or disease above an economic threshold. Most fields are sprayed 2–3 times more than necessary, which wastes money, kills natural enemies and builds resistance."
+  },
+  {
+    "id": "sticky-traps",
+    "category": "Pest & Disease",
+    "title": "Install sticky traps and pheromone traps early",
+    "body": "Yellow sticky traps catch whitefly and aphids; blue traps catch thrips; pheromone traps catch fruit borers, pink bollworm and Helicoverpa. Ten traps per hectare give you an early warning system for about the cost of a single spray and can tell you exactly when pest numbers start to build."
+  },
+  {
+    "id": "rotate-chemistry",
+    "category": "Pest & Disease",
+    "title": "Rotate pesticide groups to beat resistance",
+    "body": "Never use the same active ingredient repeatedly in one season. Rotate between chemical groups (for example triazole → strobilurin → contact fungicide) and use bio-fungicides in between. Mixing and rotating chemistry keeps the sprays working when you really need them."
+  },
+  {
+    "id": "spray-window",
+    "category": "Pest & Disease",
+    "title": "Time your spray to the weather",
+    "body": "Spray when the wind is under 10 km/h, no rain is expected for at least 6 hours, and the temperature is below 30 °C. Early morning or late afternoon is best. Spraying before rain or in strong wind wastes the chemical and can never reach the target."
+  },
+  {
+    "id": "sanitation",
+    "category": "Pest & Disease",
+    "title": "Field sanitation is free disease control",
+    "body": "Remove and destroy infected plant parts, uproot diseased plants with their roots, and clean crop residue after harvest. Disinfect tools and footwear if you move between fields, especially where banana wilt or bacterial wilt is present. Most disease outbreaks start from residue and infected material left in or beside the field."
+  },
+  {
+    "id": "certified-seed",
+    "category": "Seed",
+    "title": "Buy certified seed from a licensed dealer",
+    "body": "Certified seed costs a little more but gives a uniform stand, better germination and freedom from seed-borne disease. Always keep the bill and the seed label. Avoid loose, unlabelled seed sold at a discount — it is the most common source of blast, blight, smut and virus problems."
+  },
+  {
+    "id": "seed-treatment",
+    "category": "Seed",
+    "title": "Treat every seed before sowing",
+    "body": "A simple seed treatment with a fungicide plus a bio-fertiliser (rhizobium and PSB for pulses, azotobacter for cereals) costs very little and protects the seedling in its most vulnerable weeks. It is the cheapest plant protection step available on a farm."
+  },
+  {
+    "id": "seed-rate",
+    "category": "Seed",
+    "title": "Do not over-seed to compensate for poor seed",
+    "body": "Over-seeding creates a dense canopy that competes for water and light and encourages sheath blight, powdery mildew and lodging. Thin the crop to the recommended plant population, and invest in better seed instead."
+  },
+  {
+    "id": "critical-stage-water",
+    "category": "Agronomy",
+    "title": "Know your crop's critical irrigation stages",
+    "body": "Every crop has one or two stages where water stress is most damaging: crown root initiation for wheat, flowering and pegging for groundnut, silking for maize, flowering and boll formation for cotton. Protect these stages even if you have to sacrifice an irrigation elsewhere."
+  },
+  {
+    "id": "nitrogen-split",
+    "category": "Agronomy",
+    "title": "Split nitrogen into 2–3 doses",
+    "body": "Applying all the nitrogen at sowing loses much of it to leaching and volatilisation. Splitting nitrogen into a basal dose plus one or two top dressings matches supply to crop demand, reduces losses, and lowers disease pressure from lush growth. In rice this also reduces blast and bacterial blight."
+  },
+  {
+    "id": "micro-nutrients",
+    "category": "Agronomy",
+    "title": "Do not ignore zinc, boron and sulphur",
+    "body": "Zinc deficiency (khaira in rice, white bud in maize), boron deficiency (hollow stem, poor fruit set) and sulphur deficiency (pale, small leaves, low oil in oilseeds) are widespread. Corrective soil or foliar applications cost very little and can raise yield by 10–20% in deficient soils."
+  },
+  {
+    "id": "weeding-window",
+    "category": "Agronomy",
+    "title": "Weed early — the first 30 days decide the yield",
+    "body": "The critical weed-free period is roughly the first 30–45 days for most field crops. Weeds removed early return 4–5 times more yield than the same effort later. A pre-emergence herbicide plus one timely hand weeding is usually enough."
+  },
+  {
+    "id": "harvest-moisture",
+    "category": "Post-harvest",
+    "title": "Harvest and store at the right moisture",
+    "body": "Store grain only after drying it to safe moisture: 12–14% for cereals and 8–10% for oilseeds and pulses. Damp grain heats up, grows mould and may develop aflatoxin. Drying properly is the cheapest insurance against storage losses, which are commonly 5–10%."
+  },
+  {
+    "id": "storage-pest",
+    "category": "Post-harvest",
+    "title": "Protect stored grain without heavy chemicals",
+    "body": "Clean and dry the storage room, use hermetic bags or metal bins, and add neem leaves or a layer of inert clay dust. Keep different lots separate and inspect monthly. Hermetic storage alone can eliminate most insect losses without any fumigation."
+  },
+  {
+    "id": "residue-management",
+    "category": "Post-harvest",
+    "title": "Stop burning crop residue",
+    "body": "Residue burning destroys organic matter, kills soil microbes and loses the nitrogen, sulphur and carbon you paid for. Instead, incorporate the residue with a happy seeder or mulch it on the surface. Retaining residue improves soil health and, over a few seasons, reduces your fertiliser and irrigation need."
+  },
+  {
+    "id": "market-planning",
+    "category": "Business",
+    "title": "Plan the market before you sow",
+    "body": "Decide what you will grow, in what quantity, and who you will sell it to before the season begins. Staggered planting of vegetables spreads the harvest over a longer window and helps you avoid a glut. Even a simple plan avoids distress sales."
+  },
+  {
+    "id": "record-keeping",
+    "category": "Business",
+    "title": "Keep a simple field diary",
+    "body": "Record the date of sowing, each irrigation, every spray with its cost, and the final yield for each plot. After two or three seasons the diary will tell you exactly which crop and which practice earns you the most. It is the cheapest management tool on a farm."
+  },
+  {
+    "id": "weather-alert",
+    "category": "Planning",
+    "title": "Check the weather forecast before every spray and irrigation",
+    "body": "A 3–5 day forecast can save a wasted spray and a missed irrigation. Spray when no rain is due for 6 hours, irrigate before a dry spell, and postpone fertiliser if heavy rain is coming, because it will wash out. The AgriSense advisory page shows a spray window for exactly this purpose."
+  }
+]

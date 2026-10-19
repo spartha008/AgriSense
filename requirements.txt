@@ -1,0 +1,5 @@
+# AgriSense - Python dependencies
+# Install with:  pip install -r requirements.txt
+
+Flask>=3.0        # web framework / JSON API
+Pillow>=10.0      # image decoding for the offline leaf-image analyzer

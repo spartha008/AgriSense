@@ -1,0 +1,800 @@
+[
+  {
+    "id": "rice",
+    "name": "Rice (Paddy)",
+    "local_names": "Dhan, Chawal | धान | நெல் | వరి",
+    "scientific": "Oryza sativa",
+    "emoji": "🌾",
+    "category": "Cereal",
+    "season": "Kharif (main); Rabi in parts of the east and south",
+    "sowing_window": "Nursery: late May–June. Transplanting: June–July (21–25 day old seedlings)",
+    "harvest_window": "October–November",
+    "duration_days": "110–150 (variety dependent)",
+    "climate": "Warm and humid. 22–32 °C ideal; growth stops below 10 °C and above 40 °C. Very sensitive to frost.",
+    "soil": "Clay or clay-loam that holds water well and can retain 3–10 cm of standing water. Avoid highly sandy soils.",
+    "soil_ph": "5.5 – 6.8",
+    "rainfall_mm": "1000 – 1500",
+    "water_requirement": "high",
+    "spacing": "20 x 15 cm (transplanted). 20 x 10 cm for short-duration varieties",
+    "seed_rate": "40–50 kg/ha (transplanted) or 80–100 kg/ha (direct seeded)",
+    "sowing_depth": "2–3 cm",
+    "fertilizer": [
+      {"stage": "Basal (at transplanting)", "dose": "N:P:K 50:25:25 kg/ha", "notes": "Apply full P and K plus one-third N. Mix well into puddled soil."},
+      {"stage": "Tillering (20–25 DAT)", "dose": "25 kg N/ha", "notes": "Top dress when the field is moist but not flooded to the brim."},
+      {"stage": "Panicle initiation", "dose": "25 kg N/ha", "notes": "Match with panicle initiation for maximum grain set."},
+      {"stage": "Zinc correction", "dose": "Zinc sulphate 25 kg/ha", "notes": "Apply basally if leaves show khaira (brown rust-like spots on lower leaves)."}
+    ],
+    "irrigation": {
+      "method": "Continuous flooding or Alternate Wetting and Drying (AWD)",
+      "critical_stages": ["Transplanting", "Tillering", "Panicle initiation", "Flowering", "Grain filling"],
+      "tips": [
+        "Keep 2–5 cm of water during establishment and flowering.",
+        "AWD: let the water drop to about 15 cm below the soil surface before re-flooding. Saves 20–30% water with little yield loss.",
+        "Drain the field 7–10 days before harvest so the soil firms up for the combine.",
+        "Shortage of water at flowering is the single most damaging stress — protect that stage first."
+      ]
+    },
+    "care": [
+      "Level the field well. Uneven fields waste water and create patchy crop stands.",
+      "Puddle before transplanting to reduce percolation losses.",
+      "Keep the field weed-free for the first 30–40 days — this is the critical weed-free period.",
+      "Apply the last nitrogen dose before 60 days; late nitrogen invites pest attack and poor grain filling.",
+      "Use AWD and avoid burning straw to cut water use and greenhouse gases."
+    ],
+    "common_pests": ["Yellow stem borer", "Brown plant hopper", "Leaf folder", "Gall midge", "Rice hispa"],
+    "disease_ids": ["rice-blast", "rice-bacterial-leaf-blight", "rice-brown-spot", "rice-sheath-blight"],
+    "harvest_notes": "Harvest when 80–85% of grains turn straw coloured and grain moisture is around 20–22%. Dry to 12–14% before storage.",
+    "expected_yield": "4.5 – 6.5 t/ha (irrigated)",
+    "tips": [
+      "Add 5–10 t/ha of farmyard manure or green manure (dhaincha) before transplanting to cut fertiliser need.",
+      "Treat seed with a fungicide or hot water (52–54 °C for 10 min) to control seed-borne blast and bacterial blight."
+    ]
+  },
+  {
+    "id": "wheat",
+    "name": "Wheat",
+    "local_names": "Gehun | गेहूं | கோதுமை",
+    "scientific": "Triticum aestivum",
+    "emoji": "🌾",
+    "category": "Cereal",
+    "season": "Rabi",
+    "sowing_window": "Late October – end of November (delayed sowing drops yield sharply)",
+    "harvest_window": "March–April",
+    "duration_days": "120–145",
+    "climate": "Cool and dry growing season. 15–25 °C is ideal; above 30 °C during grain filling cuts yield.",
+    "soil": "Well-drained loam or clay-loam with good organic matter. Waterlogging is very harmful.",
+    "soil_ph": "6.0 – 7.5",
+    "rainfall_mm": "450 – 650 (mostly needs irrigation)",
+    "water_requirement": "medium",
+    "spacing": "Rows 18–22 cm apart",
+    "seed_rate": "100 kg/ha (timely sown), 125 kg/ha (late sown)",
+    "sowing_depth": "4–5 cm",
+    "fertilizer": [
+      {"stage": "Basal (at sowing)", "dose": "N:P:K 60:30:20 kg/ha", "notes": "Place seed and fertiliser using a seed drill for best efficiency."},
+      {"stage": "First irrigation (CRI, 20–25 DAS)", "dose": "40 kg N/ha", "notes": "The crown root initiation stage is the most critical irrigation."},
+      {"stage": "Tillering (40–45 DAS)", "dose": "20 kg N/ha", "notes": "Skip if the crop is lush and lodging risk is high."},
+      {"stage": "Sulphur / zinc", "dose": "Zinc sulphate 25 kg/ha", "notes": "Helps in soils with a history of zinc deficiency."}
+    ],
+    "irrigation": {
+      "method": "Flood or sprinkler; 4–6 irrigations depending on soil and rainfall",
+      "critical_stages": ["Crown root initiation (20–25 DAS)", "Tillering", "Jointing", "Flowering", "Milk", "Dough"],
+      "tips": [
+        "Crown root initiation is non-negotiable — a single missed irrigation here can cut yield by 20%.",
+        "Irrigate lightly and frequently on sandy soils; heavier and less often on clay.",
+        "Avoid irrigation during strong winds to prevent lodging.",
+        "Stop irrigation once the crop reaches the dough stage."
+      ]
+    },
+    "care": [
+      "Sow on time — every week of delay after late November reduces yield by roughly 1–1.5%.",
+      "Use certified, treated seed and a seed drill for uniform depth.",
+      "Control Phalaris (gulli danda) and other weeds in the first 30–35 days.",
+      "Earth up slightly and avoid excess nitrogen to prevent lodging.",
+      "Watch for aphids during warm spells in February–March."
+    ],
+    "common_pests": ["Aphids", "Pink stem borer", "Termites", "Armyworm"],
+    "disease_ids": ["wheat-leaf-rust", "wheat-yellow-rust", "wheat-powdery-mildew", "wheat-karnal-bunt"],
+    "harvest_notes": "Harvest at 14–16% grain moisture when the crop turns golden and grains are hard. Store only after drying to 12%.",
+    "expected_yield": "4.0 – 5.5 t/ha (irrigated timely sown)",
+    "tips": [
+      "Residue retention or zero-till after rice saves water and improves soil health.",
+      "Never irrigate wheat right after a heavy rain — waterlogging in the first 30 days is a yield killer."
+    ]
+  },
+  {
+    "id": "maize",
+    "name": "Maize (Corn)",
+    "local_names": "Makka | मक्का | மக்காச்சோளம்",
+    "scientific": "Zea mays",
+    "emoji": "🌽",
+    "category": "Cereal",
+    "season": "Kharif, Rabi and Zaid (grown all year in the south)",
+    "sowing_window": "Kharif: June–July. Rabi: October–November. Zaid (spring): January–February",
+    "harvest_window": "95–120 days after sowing",
+    "duration_days": "85–125",
+    "climate": "Warm. 21–30 °C ideal. Frost and waterlogging are damaging.",
+    "soil": "Deep, well-drained sandy-loam to loam rich in organic matter.",
+    "soil_ph": "5.8 – 7.0",
+    "rainfall_mm": "500 – 800",
+    "water_requirement": "medium",
+    "spacing": "60 x 20 cm (grain), 75 x 20 cm for sweet corn",
+    "seed_rate": "20–25 kg/ha",
+    "sowing_depth": "4–5 cm",
+    "fertilizer": [
+      {"stage": "Basal (at sowing)", "dose": "N:P:K 50:30:30 kg/ha", "notes": "Mix into the furrow before sowing."},
+      {"stage": "Knee-high (V6, 30–35 DAS)", "dose": "50 kg N/ha", "notes": "Most important nitrogen split. Earth up along the rows."},
+      {"stage": "Tasselling (55–60 DAS)", "dose": "30 kg N/ha", "notes": "Supports cob development."},
+      {"stage": "Zinc", "dose": "Zinc sulphate 25 kg/ha", "notes": "Maize is quite responsive to zinc; watch for white bud."}
+    ],
+    "irrigation": {
+      "method": "Furrow, ridge or sprinkler; avoid flooding the whorl",
+      "critical_stages": ["Knee-high", "Tasselling", "Silking", "Grain filling"],
+      "tips": [
+        "Silking to grain filling is the thirstiest window — drought here causes poorly filled cobs.",
+        "Drain excess water within 24 hours; maize dies in stagnant water.",
+        "Drip with fertigation gives the best water and nutrient use efficiency."
+      ]
+    },
+    "care": [
+      "Keep the crop weed-free up to 45 days; use atrazine pre-emergence plus one hand weeding.",
+      "Earth up at the knee-high stage to support the plant and control weeds.",
+      "Scout for fall armyworm in the whorl from 15 days after emergence.",
+      "Plant a border row or trap crop like napier to limit stem borer entry."
+    ],
+    "common_pests": ["Fall armyworm", "Stem borer", "Shoot fly", "Cob borer", "Aphids"],
+    "disease_ids": ["maize-turcicum-blight", "maize-maydis-leaf-spot", "maize-downy-mildew"],
+    "harvest_notes": "Grain maize: harvest when husk dries and a black layer forms at the kernel base (moisture ~20%). Dry to 13% for storage.",
+    "expected_yield": "5.0 – 8.0 t/ha (grain, irrigated)",
+    "tips": [
+      "Rotate maize with a legume such as cowpea or groundnut to break pest cycles.",
+      "Green cobs (baby corn, sweet corn) can be harvested 3–4 weeks earlier for higher returns."
+    ]
+  },
+  {
+    "id": "bajra",
+    "name": "Pearl Millet (Bajra)",
+    "local_names": "Bajra | बाजरा | கம்பு",
+    "scientific": "Pennisetum glaucum",
+    "emoji": "🌾",
+    "category": "Millet",
+    "season": "Kharif; also summer in some states",
+    "sowing_window": "June–July (with the onset of monsoon)",
+    "harvest_window": "September–October",
+    "duration_days": "70–95",
+    "climate": "Hot and dry. Tolerates 35–40 °C and low rainfall far better than most cereals.",
+    "soil": "Light, sandy or sandy-loam soils with good drainage; tolerates low fertility.",
+    "soil_ph": "6.0 – 8.0",
+    "rainfall_mm": "350 – 600",
+    "water_requirement": "low",
+    "spacing": "45 x 12–15 cm",
+    "seed_rate": "4–5 kg/ha",
+    "sowing_depth": "2–3 cm",
+    "fertilizer": [
+      {"stage": "Basal (at sowing)", "dose": "N:P 30:15 kg/ha", "notes": "Drill into the seed zone."},
+      {"stage": "Tillering (25–30 DAS)", "dose": "25 kg N/ha", "notes": "Top dress after the first weeding."},
+      {"stage": "Organic option", "dose": "FYM 5 t/ha", "notes": "Improves sandy soil's water holding capacity noticeably."}
+    ],
+    "irrigation": {
+      "method": "Rainfed; protective irrigation in dry spells",
+      "critical_stages": ["Tillering", "Booting", "Flowering", "Grain filling"],
+      "tips": [
+        "One protective irrigation at flowering can raise yield by 20–30% in a dry spell.",
+        "Never allow water to stand — bajra is very sensitive to waterlogging.",
+        "Mulching conserves moisture in light soils."
+      ]
+    },
+    "care": [
+      "Thin seedlings to one plant per hill 12–15 days after emergence.",
+      "Keep the field weed-free for the first 30 days.",
+      "Grow downy mildew resistant hybrids in areas with a history of the disease.",
+      "Bird damage is common near harvest — use scarers or harvest promptly."
+    ],
+    "common_pests": ["Shoot fly", "Stem borer", "Grey weevil", "Grasshopper"],
+    "disease_ids": ["bajra-downy-mildew", "maize-turcicum-blight"],
+    "harvest_notes": "Harvest when grains are hard and the earhead turns brown. Grain moisture should be around 15% at harvest.",
+    "expected_yield": "1.8 – 3.0 t/ha (rainfed)",
+    "tips": [
+      "Bajra is a climate-resilient choice for low-rainfall, low-input land.",
+      "Its straw is high-quality fodder — factor that into your returns."
+    ]
+  },
+  {
+    "id": "cotton",
+    "name": "Cotton",
+    "local_names": "Kapas | कपास | பருத்தி",
+    "scientific": "Gossypium hirsutum",
+    "emoji": "🌱",
+    "category": "Fibre",
+    "season": "Kharif",
+    "sowing_window": "April–June depending on region, after 75–100 mm of rain or a pre-sowing irrigation",
+    "harvest_window": "October–January (picking in 2–4 flushes)",
+    "duration_days": "150–200",
+    "climate": "Warm, 21–30 °C. Needs a long frost-free season with plenty of sunshine.",
+    "soil": "Deep black cotton soil (vertisol) or well-drained alluvial loam.",
+    "soil_ph": "6.0 – 8.0",
+    "rainfall_mm": "600 – 900",
+    "water_requirement": "medium",
+    "spacing": "Bt cotton: 90 x 60 cm or 120 x 45 cm; desi cotton closer",
+    "seed_rate": "1.5–2.5 packets/ha (Bt hybrids), 15–20 kg/ha (desi)",
+    "sowing_depth": "3–5 cm",
+    "fertilizer": [
+      {"stage": "Basal (at sowing)", "dose": "N:P:K 40:20:20 kg/ha", "notes": "Apply in the furrow and cover with soil."},
+      {"stage": "Squaring (30–35 DAS)", "dose": "40 kg N/ha", "notes": "First top dressing."},
+      {"stage": "Flowering (60–70 DAS)", "dose": "40 kg N/ha", "notes": "Supports boll retention."},
+      {"stage": "Micronutrients", "dose": "Magnesium sulphate 10 kg/ha + boron spray", "notes": "Corrects reddening and poor boll set."}
+    ],
+    "irrigation": {
+      "method": "Furrow, drip or sprinkler",
+      "critical_stages": ["Squaring", "Flowering", "Boll development", "Boll bursting"],
+      "tips": [
+        "Flowering and boll formation are the most drought-sensitive stages.",
+        "In black soil, irrigate when the soil 15 cm deep feels dry — over watering causes vegetative growth and boll shedding.",
+        "Stop irrigation once bolls start bursting to help clean picking.",
+        "Never use flood irrigation in heavy black soil — it waterlogs and rots the roots."
+      ]
+    },
+    "care": [
+      "Do not grow Bt cotton continuously in the same field; rotate with a non-Bt or another crop.",
+      "Follow the refuge row rule (20% non-Bt border) where advised to slow resistance.",
+      "Monitor pink bollworm with pheromone traps from the flowering stage.",
+      "Remove and destroy rosette flowers and affected bolls weekly.",
+      "Avoid excess nitrogen — it makes the crop attractive to sucking pests and delays maturity."
+    ],
+    "common_pests": ["Pink bollworm", "American bollworm", "Whitefly", "Jassid", "Thrips", "Aphid"],
+    "disease_ids": ["cotton-fusarium-wilt", "cotton-leaf-curl-virus", "cotton-bacterial-blight"],
+    "harvest_notes": "Pick clean, dry cotton in the morning after dew dries. Pick every 8–10 days and keep different pickings separate.",
+    "expected_yield": "1.5 – 2.5 t/ha seed cotton (irrigated)",
+    "tips": [
+      "Deep summer ploughing exposes soil-borne pupae and reduces pest carry-over.",
+      "Hand destruction of pest-affected parts is cheaper and safer than repeated sprays."
+    ]
+  },
+  {
+    "id": "sugarcane",
+    "name": "Sugarcane",
+    "local_names": "Ganna | गन्ना | கரும்பு",
+    "scientific": "Saccharum officinarum",
+    "emoji": "🎋",
+    "category": "Cash crop",
+    "season": "Autumn (Sept–Oct), Spring (Feb–Mar) and Adsali (July–Aug)",
+    "sowing_window": "Spring planting February–March; Autumn planting September–October",
+    "harvest_window": "12–18 months after planting depending on the season",
+    "duration_days": "300–540",
+    "climate": "Hot and humid, 20–35 °C. Very high water and nutrient demand.",
+    "soil": "Deep, well-drained loam or clay-loam with high organic matter.",
+    "soil_ph": "6.0 – 7.5",
+    "rainfall_mm": "1100 – 1500",
+    "water_requirement": "very high",
+    "spacing": "Row to row 90–120 cm; 3-bud setts end to end",
+    "seed_rate": "6–8 t/ha of healthy 3-bud setts",
+    "sowing_depth": "5 cm deep in furrows",
+    "fertilizer": [
+      {"stage": "Basal (at planting)", "dose": "N:P:K 50:50:50 kg/ha", "notes": "Place in furrows and cover before planting setts."},
+      {"stage": "Tillering (60–90 days)", "dose": "100 kg N/ha", "notes": "Split into two doses and earth up."},
+      {"stage": "Grand growth (120–150 days)", "dose": "100 kg N/ha", "notes": "Apply with irrigation and earth up again."},
+      {"stage": "Micronutrients", "dose": "Zinc and iron foliar spray", "notes": "Useful in calcareous soils where yellowing appears."}
+    ],
+    "irrigation": {
+      "method": "Furrow irrigation, drip with fertigation, or subsurface drip",
+      "critical_stages": ["Germination", "Tillering", "Grand growth", "Maturity"],
+      "tips": [
+        "The grand growth phase needs the most water — never let it stress here.",
+        "Trash mulching between rows conserves moisture and suppresses weeds.",
+        "Drip irrigation can save 40–50% water compared with flood and raises cane yield.",
+        "Avoid irrigation 20–30 days before harvest to raise sugar recovery."
+      ]
+    },
+    "care": [
+      "Use disease-free setts and treat them with a fungicide plus hot water before planting.",
+      "Earth up at 90 and 150 days to prevent lodging and improve rooting.",
+      "Wrap and prop up lodged cane to keep it safe from pests and rats.",
+      "Grow a legume intercrop (sunhemp, cowpea) in the early stage for extra income and soil nitrogen."
+    ],
+    "common_pests": ["Early shoot borer", "Top shoot borer", "Woolly aphid", "Pyrilla", "Termites", "Rodents"],
+    "disease_ids": ["sugarcane-red-rot", "sugarcane-smut", "sugarcane-grassy-shoot"],
+    "harvest_notes": "Harvest at 10–12 months in the tropics or 12–18 in the subtropics when brix is highest. Cut close to the ground and crush within 24 hours.",
+    "expected_yield": "70 – 100 t/ha",
+    "tips": [
+      "Ratoon cropping after harvest saves planting cost if the ratoon is healthy.",
+      "Keep a border of a different crop to reduce pyrilla movement."
+    ]
+  },
+  {
+    "id": "groundnut",
+    "name": "Groundnut (Peanut)",
+    "local_names": "Moongphali | मूंगफली | நிலக்கடலை",
+    "scientific": "Arachis hypogaea",
+    "emoji": "🥜",
+    "category": "Oilseed / Pulse",
+    "season": "Kharif and Rabi/Summer",
+    "sowing_window": "Kharif: June–July. Summer: January–February",
+    "harvest_window": "Kharif: October–November. Summer: May–June",
+    "duration_days": "100–130",
+    "climate": "Warm, 25–30 °C. Needs a well distributed 500–700 mm rainfall.",
+    "soil": "Well-drained sandy loam or loamy sand, rich in calcium. Heavy clay makes pod harvesting hard.",
+    "soil_ph": "6.0 – 7.5",
+    "rainfall_mm": "500 – 700",
+    "water_requirement": "medium",
+    "spacing": "30 x 10 cm (bunch type), 45 x 15 cm (spreading type)",
+    "seed_rate": "100–120 kg/ha kernels",
+    "sowing_depth": "5 cm",
+    "fertilizer": [
+      {"stage": "Basal (at sowing)", "dose": "N:P:K 25:50:40 kg/ha + gypsum 400 kg/ha", "notes": "Groundnut fixes its own nitrogen, so P and K matter more."},
+      {"stage": "Flowering (30–35 DAS)", "dose": "Gypsum 200 kg/ha", "notes": "Apply near the base and cover — calcium is critical for pod filling."},
+      {"stage": "Pegging", "dose": "Foliar 2% DAP or 0.5% KNO3", "notes": "Helps pegging and pod development."}
+    ],
+    "irrigation": {
+      "method": "Furrow or sprinkler; drip is excellent for summer groundnut",
+      "critical_stages": ["Flowering", "Pegging", "Pod formation", "Pod filling"],
+      "tips": [
+        "The pegging-to-pod-filling period decides yield — keep the soil moist but never soggy.",
+        "A dry spell at flowering causes huge flower drop and lowers pod set.",
+        "Light, frequent irrigation suits sandy soil better than heavy flooding."
+      ]
+    },
+    "care": [
+      "Treat seed with a fungicide against collar rot and a suitable rhizobium culture.",
+      "Apply gypsum at flowering on light soils — it directly improves pod filling.",
+      "Earth up around the base at pegging so the pegs can enter the soil easily.",
+      "Do not disturb the crop during pegging and pod formation."
+    ],
+    "common_pests": ["White grub", "Leaf miner", "Aphid", "Thrips", "Pod borer"],
+    "disease_ids": ["groundnut-tikka-leaf-spot", "groundnut-stem-rot", "bud-necrosis-virus"],
+    "harvest_notes": "Harvest when the inner shell shows a dark brown lining and leaves start yellowing. Dry pods to 8–9% moisture before storage.",
+    "expected_yield": "2.0 – 3.0 t/ha (pods, irrigated)",
+    "tips": [
+      "Groundnut improves soil nitrogen for the next crop — use it in rotation with cereals.",
+      "Aflatoxin risk rises with late harvest and poor drying; dry promptly and store dry."
+    ]
+  },
+  {
+    "id": "soybean",
+    "name": "Soybean",
+    "local_names": "Soyabean | सोयाबीन",
+    "scientific": "Glycine max",
+    "emoji": "🫘",
+    "category": "Oilseed / Pulse",
+    "season": "Kharif (main); summer in the south",
+    "sowing_window": "June–July with the onset of monsoon",
+    "harvest_window": "September–October",
+    "duration_days": "90–120",
+    "climate": "Warm and moist, 25–30 °C. Photoperiod sensitive.",
+    "soil": "Well-drained loam or clay-loam with good organic matter; avoid waterlogged and highly saline soils.",
+    "soil_ph": "6.0 – 7.5",
+    "rainfall_mm": "600 – 800",
+    "water_requirement": "medium",
+    "spacing": "45 x 5 cm (broadcast with a seed drill) or 30 x 10 cm",
+    "seed_rate": "60–75 kg/ha",
+    "sowing_depth": "3–4 cm",
+    "fertilizer": [
+      {"stage": "Basal (at sowing)", "dose": "N:P:K 20:60:40 kg/ha + sulphur 20 kg/ha", "notes": "Soybean fixes nitrogen; emphasise P, K and sulphur."},
+      {"stage": "Seed treatment", "dose": "Rhizobium + PSB culture", "notes": "Very high payback in soybean."},
+      {"stage": "Flowering", "dose": "Foliar 2% DAP spray", "notes": "Improves pod set and seed weight."}
+    ],
+    "irrigation": {
+      "method": "Rainfed in the kharif; check basin or sprinkler in the summer",
+      "critical_stages": ["Flowering", "Pod formation", "Seed filling"],
+      "tips": [
+        "Drought at flowering and pod filling is the main cause of low soybean yield.",
+        "Provide drainage in a continuous wet spell — waterlogging for even 3–4 days causes yellowing and yield loss.",
+        "In summer, irrigate at 8–10 day intervals depending on soil type."
+      ]
+    },
+    "care": [
+      "Sow with a seed drill in rows rather than broadcasting for a uniform stand.",
+      "Seed treatment with rhizobium and PSB is essential.",
+      "Keep the crop weed-free up to 40 days; use pre-emergence herbicide plus one weeding.",
+      "Harvest as soon as the pods turn brown to avoid pod shattering."
+    ],
+    "common_pests": ["Girdle beetle", "Stem fly", "Semilooper", "Tobacco caterpillar", "Whitefly"],
+    "disease_ids": ["soybean-yellow-mosaic-virus", "soybean-rust", "soybean-rhizoctonia-blight"],
+    "harvest_notes": "Harvest when 95% of pods turn brown. Thresh at low moisture; dry seed to 10–12% for storage.",
+    "expected_yield": "2.0 – 3.0 t/ha",
+    "tips": [
+      "Soybean is an excellent rotation crop before wheat or maize.",
+      "Avoid sowing soybean repeatedly on the same plot — buildup of soil pathogens."
+    ]
+  },
+  {
+    "id": "chickpea",
+    "name": "Chickpea (Gram)",
+    "local_names": "Chana | चना | கொண்டைக் கடலை",
+    "scientific": "Cicer arietinum",
+    "emoji": "🫛",
+    "category": "Pulse",
+    "season": "Rabi",
+    "sowing_window": "October–November (mid-November onwards for the south)",
+    "harvest_window": "February–March",
+    "duration_days": "95–130",
+    "climate": "Cool, dry winter, 15–25 °C. Sensitive to excess moisture and to high temperature at podding.",
+    "soil": "Well-drained sandy loam to clay-loam. Tolerant of low fertility but not of waterlogging.",
+    "soil_ph": "6.0 – 8.0",
+    "rainfall_mm": "400 – 500 (mostly needs 1–2 light irrigations)",
+    "water_requirement": "low",
+    "spacing": "30 x 10 cm",
+    "seed_rate": "60–80 kg/ha (desi), 80–100 kg/ha (kabuli)",
+    "sowing_depth": "5–7 cm",
+    "fertilizer": [
+      {"stage": "Basal (at sowing)", "dose": "N:P:K 20:50:20 kg/ha + sulphur 20 kg/ha", "notes": "Add rhizobium and PSB seed treatment for best results."},
+      {"stage": "Pre-flowering (30–35 DAS)", "dose": "20 kg N/ha", "notes": "Only if the crop looks pale."},
+      {"stage": "Pod filling", "dose": "Foliar 2% urea or 0.5% KNO3", "notes": "Helps fill pods when the season warms up."}
+    ],
+    "irrigation": {
+      "method": "Light check-basin or sprinkler irrigation; highly sensitive to excess water",
+      "critical_stages": ["Branching", "Flowering", "Pod formation", "Pod filling"],
+      "tips": [
+        "One irrigation at pre-flowering and one at pod filling is usually enough.",
+        "Never allow standing water — chickpea dies within a few days of waterlogging.",
+        "Excess irrigation encourages vegetative growth and reduces pod set."
+      ]
+    },
+    "care": [
+      "Treat seed with rhizobium and PSB cultures before sowing.",
+      "Use a wilt-resistant variety in fields with a history of chickpea wilt.",
+      "Keep the field free of weeds for the first 30–40 days.",
+      "Watch for Helicoverpa (pod borer) at flowering and podding — the crop's main enemy.",
+      "Avoid late sowing; it pushes pod filling into the hot season and reduces yield."
+    ],
+    "common_pests": ["Pod borer (Helicoverpa)", "Cutworm", "Aphid", "Bruchid (storage)"],
+    "disease_ids": ["chickpea-fusarium-wilt", "chickpea-blight", "chickpea-collar-rot"],
+    "harvest_notes": "Harvest when plants turn yellow-brown and pods rattle. Dry to 9–10% moisture and store with a bruchid-safe method.",
+    "expected_yield": "1.5 – 2.5 t/ha",
+    "tips": [
+      "Chickpea leaves valuable nitrogen behind for the next crop.",
+      "Install pheromone traps for Helicoverpa monitoring from the flowering stage."
+    ]
+  },
+  {
+    "id": "mustard",
+    "name": "Mustard / Rapeseed",
+    "local_names": "Sarson, Toria | सरसों",
+    "scientific": "Brassica juncea",
+    "emoji": "🌼",
+    "category": "Oilseed",
+    "season": "Rabi",
+    "sowing_window": "Late September – end of October",
+    "harvest_window": "February–March",
+    "duration_days": "110–140",
+    "climate": "Cool and dry, 10–25 °C. Very sensitive to heat at flowering and to waterlogging.",
+    "soil": "Sandy loam to clay-loam with good drainage; tolerates mild salinity.",
+    "soil_ph": "6.0 – 7.5",
+    "rainfall_mm": "350 – 450 (needs 1–2 irrigations)",
+    "water_requirement": "low",
+    "spacing": "30 x 10–15 cm",
+    "seed_rate": "4–6 kg/ha",
+    "sowing_depth": "2–3 cm",
+    "fertilizer": [
+      {"stage": "Basal (at sowing)", "dose": "N:P:K 30:30:20 kg/ha + sulphur 40 kg/ha", "notes": "Sulphur is essential for oil content — never skip it in oilseeds."},
+      {"stage": "First irrigation (30 DAS)", "dose": "30 kg N/ha", "notes": "Top dress with the first irrigation."},
+      {"stage": "Flowering", "dose": "20 kg N/ha", "notes": "Only if the crop is pale and the season is favourable."}
+    ],
+    "irrigation": {
+      "method": "Light furrow or check-basin irrigation",
+      "critical_stages": ["Pre-flowering (30 DAS)", "Flowering", "Siliqua (pod) filling"],
+      "tips": [
+        "Two irrigations — one at pre-flowering and one at siliqua filling — give most of the benefit.",
+        "Avoid irrigation during strong winds, which causes severe lodging.",
+        "Drain excess water promptly; mustard suffers badly in waterlogged soil."
+      ]
+    },
+    "care": [
+      "Sow on time; delayed sowing exposes flowering to heat and aphids.",
+      "Apply sulphur for oil content and aphid tolerance.",
+      "Control aphids early — they can destroy the crop at the flowering stage.",
+      "Thin the crop to the correct plant population 15–20 days after sowing.",
+      "Do not allow grazing by stray cattle, a common cause of poor stands."
+    ],
+    "common_pests": ["Mustard aphid", "Painted bug", "Sawfly", "Flea beetle"],
+    "disease_ids": ["mustard-alternaria-blight", "mustard-white-rust", "mustard-sclerotinia-rot"],
+    "harvest_notes": "Harvest when 75% of siliquae turn yellow-brown, in the early morning to reduce shattering. Dry to 8% moisture.",
+    "expected_yield": "1.5 – 2.2 t/ha",
+    "tips": [
+      "Grow a mustard border around wheat to trap aphids away from the main crop.",
+      "Mustard honeybee pollination raises yield — avoid spraying insecticide at flowering."
+    ]
+  },
+  {
+    "id": "tomato",
+    "name": "Tomato",
+    "local_names": "Tamatar | टमाटर | தக்காளி",
+    "scientific": "Solanum lycopersicum",
+    "emoji": "🍅",
+    "category": "Vegetable",
+    "season": "Kharif, Rabi and Summer (transplanted crop)",
+    "sowing_window": "Nursery 3–4 weeks before transplanting: Jun–Jul (kharif), Oct–Nov (rabi), Jan–Feb (summer)",
+    "harvest_window": "65–90 days after transplanting, picked over 6–10 weeks",
+    "duration_days": "120–150 (total crop period)",
+    "climate": "Warm, 20–27 °C ideal. Above 32 °C flower drop occurs; below 10 °C growth stalls.",
+    "soil": "Well-drained sandy loam rich in organic matter; pH 6.0–7.0 preferred.",
+    "soil_ph": "6.0 – 7.0",
+    "rainfall_mm": "600 – 750",
+    "water_requirement": "high",
+    "spacing": "60 x 45 cm (staked), 75 x 60 cm for indeterminate types",
+    "seed_rate": "400–500 g/ha (nursery)",
+    "sowing_depth": "1–1.5 cm in the nursery",
+    "fertilizer": [
+      {"stage": "Basal (before transplanting)", "dose": "FYM 20 t/ha + N:P:K 50:50:50 kg/ha", "notes": "Mix into the beds two weeks before transplanting."},
+      {"stage": "20 DAT", "dose": "40 kg N/ha", "notes": "First top dressing with irrigation."},
+      {"stage": "40 DAT", "dose": "40 kg N/ha + 25 kg K/ha", "notes": "Supports the first fruit set."},
+      {"stage": "Peak fruiting", "dose": "Foliar 0.5% KNO3 + calcium spray", "notes": "Prevents blossom end rot and improves fruit quality."}
+    ],
+    "irrigation": {
+      "method": "Drip irrigation with mulch is ideal; furrow or sprinkler also used",
+      "critical_stages": ["Transplanting", "Flowering", "Fruit set", "Fruit development"],
+      "tips": [
+        "Water little and often — frequent light irrigation suits tomato better than heavy, infrequent soakings.",
+        "Keep moisture even — irregular watering causes fruit cracking and blossom end rot.",
+        "Drip plus plastic mulch saves 40% water and cuts weed and disease pressure.",
+        "Avoid overhead irrigation in the evening; wet foliage invites blight and leaf spot.",
+        "Mulch heavily to keep the root zone cool and moist."
+      ]
+    },
+    "care": [
+      "Stake or trellis plants to keep fruit off the ground and reduce rot.",
+      "Prune side shoots on indeterminate varieties and remove the first truss if the plant is weak.",
+      "Rotate away from potato, chilli and brinjal for at least 2–3 years to break disease cycles.",
+      "Remove and destroy plants showing virus symptoms immediately.",
+      "Harvest at the correct stage for the market — breaker stage for distant markets, red ripe for local sale."
+    ],
+    "common_pests": ["Fruit borer (Helicoverpa)", "Whitefly", "Leaf miner", "Thrips", "Root-knot nematode"],
+    "disease_ids": ["tomato-early-blight", "tomato-late-blight", "tomato-leaf-curl-virus", "tomato-bacterial-wilt", "powdery-mildew-general"],
+    "harvest_notes": "Pick at breaker to pink stage for transport; avoid picking under the midday sun. Cool fruits rapidly.",
+    "expected_yield": "30 – 50 t/ha (hybrid, protected conditions higher)",
+    "tips": [
+      "Use a grafted or resistant rootstock in nematode and bacterial wilt affected fields.",
+      "Install yellow sticky traps for whitefly and blue traps for thrips for early detection."
+    ]
+  },
+  {
+    "id": "potato",
+    "name": "Potato",
+    "local_names": "Aloo | आलू | உருளைக் கிழங்கு",
+    "scientific": "Solanum tuberosum",
+    "emoji": "🥔",
+    "category": "Vegetable",
+    "season": "Rabi (main), also summer in hills",
+    "sowing_window": "October–November (plains), March–April (hills)",
+    "harvest_window": "75–110 days after planting",
+    "duration_days": "75–110",
+    "climate": "Cool, 15–22 °C ideal for tuberisation. Above 30 °C tuber growth stops.",
+    "soil": "Loose, well-drained sandy-loam rich in organic matter; cloddy or waterlogged soil gives misshapen tubers.",
+    "soil_ph": "5.5 – 6.5",
+    "rainfall_mm": "500 – 700",
+    "water_requirement": "high",
+    "spacing": "60 x 20 cm on ridges",
+    "seed_rate": "2000–2500 kg/ha of healthy seed tubers (30–40 g each)",
+    "sowing_depth": "5–7 cm on ridges",
+    "fertilizer": [
+      {"stage": "Basal (at planting)", "dose": "N:P:K 60:80:60 kg/ha + FYM 20 t/ha", "notes": "Place in the ridge or apply before earthing up."},
+      {"stage": "First earthing up (25–30 DAP)", "dose": "60 kg N/ha", "notes": "Earth up around the stems to keep tubers in the dark."},
+      {"stage": "Tuber bulking", "dose": "Foliar 2% KNO3 or SOP", "notes": "Improves tuber size and starch."}
+    ],
+    "irrigation": {
+      "method": "Furrow (ridge) irrigation or sprinkler",
+      "critical_stages": ["Sprouting", "Stolon formation", "Tuber initiation", "Tuber bulking"],
+      "tips": [
+        "Tuber bulking is the most water-critical stage — keep the ridge base moist throughout.",
+        "Stop irrigation 10–15 days before harvest so the skin sets.",
+        "Avoid the water touching the foliage; late blight spreads faster on wet leaves.",
+        "Never let the soil dry out completely during bulking — it causes knobby, cracked tubers."
+      ]
+    },
+    "care": [
+      "Always use certified disease-free seed tubers and cut only if necessary.",
+      "Earth up correctly so no tubers are exposed to light, which causes greening.",
+      "Ridge planting improves drainage and reduces the spread of late blight through soil water.",
+      "Harvest when the haulm turns yellow and the skin does not rub off easily.",
+      "Avoid growing potato in the same field as tomato, chilli or brinjal."
+    ],
+    "common_pests": ["Potato tuber moth", "Aphid", "Whitefly", "Cutworm", "Root-knot nematode"],
+    "disease_ids": ["tomato-late-blight", "tomato-early-blight", "potato-common-scab", "potato-black-scurf"],
+    "harvest_notes": "Harvest in dry weather when the skin sets. Cure in a cool dark place before storage. Store at 4–8 °C for table potatoes.",
+    "expected_yield": "20 – 30 t/ha",
+    "tips": [
+      "A two-week dark cool curing period reduces storage losses a lot.",
+      "Keep a mummy (haulm cutting) schedule if you need early harvest for a better price."
+    ]
+  },
+  {
+    "id": "onion",
+    "name": "Onion",
+    "local_names": "Pyaz | प्याज़ | வெங்காயம்",
+    "scientific": "Allium cepa",
+    "emoji": "🧅",
+    "category": "Vegetable",
+    "season": "Kharif, Late Kharif, Rabi (transplanted crop)",
+    "sowing_window": "Kharif: May–June nursery. Rabi: Oct–Nov nursery, transplant 6–8 weeks later",
+    "harvest_window": "110–140 days after transplanting",
+    "duration_days": "110–140",
+    "climate": "Cool during growth, warm and dry at maturity. 15–25 °C for growth, 25–30 °C for bulb maturity.",
+    "soil": "Well-drained sandy-loam or loam rich in organic matter; heavy soils produce deformed bulbs.",
+    "soil_ph": "6.0 – 7.0",
+    "rainfall_mm": "650 – 750",
+    "water_requirement": "medium",
+    "spacing": "15 x 10 cm on flat beds or 3 rows per 1.2 m bed",
+    "seed_rate": "8–10 kg/ha (nursery)",
+    "sowing_depth": "1–2 cm in the nursery; transplant at 8–10 cm spacing",
+    "fertilizer": [
+      {"stage": "Basal (before transplanting)", "dose": "FYM 20 t/ha + N:P:K 50:50:50 kg/ha", "notes": "Mix well into the bed 2–3 weeks before planting."},
+      {"stage": "30 DAT", "dose": "50 kg N/ha", "notes": "Top dress with irrigation."},
+      {"stage": "45–50 DAT", "dose": "50 kg N/ha + 30 kg K/ha", "notes": "Supports bulb initiation."},
+      {"stage": "Bulb development", "dose": "Sulphur 20 kg/ha", "notes": "Improves onion pungency, keeping quality and yield."}
+    ],
+    "irrigation": {
+      "method": "Furrow or drip irrigation; sprinkler is convenient on light soils",
+      "critical_stages": ["Transplanting", "Vegetative growth", "Bulb initiation", "Bulb development"],
+      "tips": [
+        "Keep the crop well watered during growth but never waterlogged.",
+        "Bulb development needs steady moisture — irregular watering causes split and thick-neck bulbs.",
+        "Stop irrigation 15–20 days before harvest to help the bulbs mature and cure.",
+        "Use drip fertigation for uniform bulbs and better water efficiency."
+      ]
+    },
+    "care": [
+      "Transplant 6–8 week old, pencil-thick seedlings for uniform bulbs.",
+      "Keep the crop weed-free in the first 45 days; onions are poor competitors.",
+      "Stop nitrogen 30 days before harvest to improve bulb storage quality.",
+      "Harvest when 50–60% of the tops have fallen over, then cure in the field.",
+      "Cure bulbs in shade with tops on for 10–15 days before topping and storage."
+    ],
+    "common_pests": ["Thrips", "Onion maggot", "Root-knot nematode"],
+    "disease_ids": ["onion-purple-blotch", "onion-downy-mildew", "onion-neck-rot"],
+    "harvest_notes": "Lift the bulbs when 50–60% of the tops lodge. Cure, top, and store in a well-ventilated dry place.",
+    "expected_yield": "25 – 35 t/ha",
+    "tips": [
+      "Proper curing at harvest is the single biggest factor in reducing storage rot.",
+      "Rotate away from garlic and other alliums for at least 3 years."
+    ]
+  },
+  {
+    "id": "chilli",
+    "name": "Chilli / Pepper",
+    "local_names": "Mirch | मिर्च | மிளகாய்",
+    "scientific": "Capsicum annuum",
+    "emoji": "🌶️",
+    "category": "Vegetable",
+    "season": "Kharif and Rabi (transplanted)",
+    "sowing_window": "Kharif: May–June nursery. Rabi: Sep–Oct nursery. Transplant 4–6 weeks later",
+    "harvest_window": "Picking starts 60–75 days after transplanting, over 4–6 months",
+    "duration_days": "180–240 (total, with multiple pickings)",
+    "climate": "Warm and humid, 20–30 °C. Very sensitive to frost and to waterlogging.",
+    "soil": "Well-drained sandy-loam to clay-loam rich in organic matter.",
+    "soil_ph": "6.0 – 7.0",
+    "rainfall_mm": "600 – 900",
+    "water_requirement": "medium",
+    "spacing": "60 x 45 cm",
+    "seed_rate": "600–800 g/ha (nursery)",
+    "sowing_depth": "1 cm in the nursery",
+    "fertilizer": [
+      {"stage": "Basal (before transplanting)", "dose": "FYM 20 t/ha + N:P:K 50:50:25 kg/ha", "notes": "Apply in the planting rows."},
+      {"stage": "20–25 DAT", "dose": "40 kg N/ha", "notes": "First top dressing."},
+      {"stage": "40–45 DAT", "dose": "40 kg N/ha + 25 kg K/ha", "notes": "Before flowering."},
+      {"stage": "After each picking", "dose": "Foliar 0.5% KNO3 + micronutrient mix", "notes": "Keeps the plant bearing over a long season."}
+    ],
+    "irrigation": {
+      "method": "Drip irrigation with mulch is best; furrow irrigation is risky for the roots",
+      "critical_stages": ["Transplanting", "Flowering", "Fruit set", "Fruit development"],
+      "tips": [
+        "Water stress at flowering causes heavy flower drop.",
+        "Avoid waterlogging at all costs — chilli wilt in wet soils is quick and fatal.",
+        "Drip plus mulch gives the best fruit quality and reduces anthracnose through splash control."
+      ]
+    },
+    "care": [
+      "Raise seedlings on raised nursery beds with a cover to keep virus-carrying insects out.",
+      "Use yellow and blue sticky traps for whitefly and thrips monitoring.",
+      "Remove virus-infected plants early — there is no cure once the plant is infected.",
+      "Mulch to reduce soil splash, which spreads anthracnose.",
+      "Harvest green chilli for a quick market or allow full red colour for dry chilli."
+    ],
+    "common_pests": ["Thrips", "Mites", "Whitefly", "Aphid", "Fruit borer"],
+    "disease_ids": ["chilli-anthracnose", "chilli-powdery-mildew", "chilli-leaf-curl-virus", "powdery-mildew-general"],
+    "harvest_notes": "Pick green chilli at full size, or wait for full red colour for dry chilli. Use scissors to avoid damaging the plant.",
+    "expected_yield": "Green chilli 15–25 t/ha; dry chilli 2–3 t/ha",
+    "tips": [
+      "Thrips damage often looks like a virus; check for the insect before pulling plants out.",
+      "Ratoon the crop after the main harvest can give a second flush of fruit in some regions."
+    ]
+  },
+  {
+    "id": "banana",
+    "name": "Banana",
+    "local_names": "Kela | केला | வாழை",
+    "scientific": "Musa paradisiaca",
+    "emoji": "🍌",
+    "category": "Fruit",
+    "season": "Planted all year; February–March and September–October are common",
+    "sowing_window": "Feb–Mar or Sep–Oct for a favourable harvest window",
+    "harvest_window": "11–14 months after planting",
+    "duration_days": "330–420",
+    "climate": "Warm and humid, 26–30 °C. Damaged by temperatures below 10 °C and by strong winds.",
+    "soil": "Deep, well-drained loam rich in organic matter with good moisture retention.",
+    "soil_ph": "6.0 – 7.5",
+    "rainfall_mm": "1200 – 2200",
+    "water_requirement": "very high",
+    "spacing": "1.8 x 1.8 m (about 3000 plants/ha)",
+    "seed_rate": "3000 tissue-culture plantlets or sword suckers per ha",
+    "sowing_depth": "Plant the sucker 10–15 cm deep in a pit of 45 cm3",
+    "fertilizer": [
+      {"stage": "Basal (at planting)", "dose": "FYM 10 kg/pit + neem cake 250 g", "notes": "Mix into the pit with soil."},
+      {"stage": "Every month (2nd–8th)", "dose": "Urea 100 g + MOP 60 g per plant", "notes": "Split into monthly doses in a ring 30 cm from the plant."},
+      {"stage": "Shooting", "dose": "SOP 100 g/plant", "notes": "Improves bunch weight and fruit quality."},
+      {"stage": "Micronutrients", "dose": "Zinc and boron spray twice", "notes": "Corrects leaf speckling and improves finger size."}
+    ],
+    "irrigation": {
+      "method": "Basin, furrow or drip irrigation; drip with fertigation is best",
+      "critical_stages": ["Establishment", "Vegetative growth", "Shooting", "Bunch development"],
+      "tips": [
+        "Banana has a shallow root system and needs frequent light irrigation.",
+        "Drip irrigation saves 40–60% water; fertigate weekly for best growth.",
+        "Keep the basin mulched with dry leaves or straw to reduce evaporation.",
+        "Avoid waterlogging — it invites panama wilt and root rot."
+      ]
+    },
+    "care": [
+      "Remove all but one healthy sword sucker per mother plant to keep a tidy plant population.",
+      "Prop tall plants with bamboo stakes to protect against wind.",
+      "Remove dried leaves and pseudostem sheaths regularly to reduce disease carryover.",
+      "Use bunch covers and stem supports to protect the developing bunch from sunburn and pests.",
+      "Remove the male bud (denavelling) after all hands are set to direct food into the fruit."
+    ],
+    "common_pests": ["Banana pseudostem weevil", "Banana aphid", "Nematodes", "Scab moth"],
+    "disease_ids": ["banana-panama-wilt", "banana-sigatoka-leaf-spot", "banana-bunchy-top-virus"],
+    "harvest_notes": "Harvest when fingers are plump and angularity is gone, at 75–80% maturity. Cut the bunch with a 15 cm stalk and handle without bruising.",
+    "expected_yield": "40 – 70 t/ha",
+    "tips": [
+      "Tissue-culture plants are disease-free and uniform — worth the extra cost in disease-prone fields.",
+      "Never plant a new banana crop in a plot with a history of panama wilt without a 6–12 month break."
+    ]
+  },
+  {
+    "id": "brinjal",
+    "name": "Brinjal (Eggplant)",
+    "local_names": "Baingan | बैंगन | கத்தரிக்காய்",
+    "scientific": "Solanum melongena",
+    "emoji": "🍆",
+    "category": "Vegetable",
+    "season": "Kharif, Rabi and Summer (transplanted)",
+    "sowing_window": "Nursery: May–Jun (kharif), Oct–Nov (rabi), Jan (summer). Transplant 4–5 weeks later",
+    "harvest_window": "Picking starts 60–70 days after transplanting, over 3–5 months",
+    "duration_days": "150–210 (total)",
+    "climate": "Warm, 22–30 °C. Frost sensitive and stops growth below 15 °C.",
+    "soil": "Well-drained sandy-loam to loam rich in organic matter.",
+    "soil_ph": "6.0 – 7.0",
+    "rainfall_mm": "600 – 800",
+    "water_requirement": "medium",
+    "spacing": "75 x 60 cm (long-duration hybrids), 60 x 45 cm (short types)",
+    "seed_rate": "400–500 g/ha (nursery)",
+    "sowing_depth": "1 cm in the nursery",
+    "fertilizer": [
+      {"stage": "Basal (before transplanting)", "dose": "FYM 20 t/ha + N:P:K 50:50:50 kg/ha", "notes": "Mix into the bed before planting."},
+      {"stage": "25–30 DAT", "dose": "40 kg N/ha", "notes": "First top dressing with irrigation."},
+      {"stage": "45 DAT", "dose": "40 kg N/ha", "notes": "Second top dressing."},
+      {"stage": "After each picking", "dose": "Foliar micronutrient spray", "notes": "Sustains fruit size over a long harvest period."}
+    ],
+    "irrigation": {
+      "method": "Furrow or drip irrigation with mulch",
+      "critical_stages": ["Transplanting", "Flowering", "Fruit set", "Fruit development"],
+      "tips": [
+        "Keep the soil evenly moist; dry spells cause small, bitter fruit and heavy flower drop.",
+        "Mulching reduces soil splash and hence bacterial wilt and fruit rot.",
+        "Avoid waterlogging, which spreads bacterial wilt rapidly."
+      ]
+    },
+    "care": [
+      "Rotate away from tomato, potato and chilli to break the bacterial wilt and nematode cycle.",
+      "Stake tall hybrids to keep fruit clean and above the soil.",
+      "Remove and destroy shoots damaged by shoot and fruit borer rather than spraying repeatedly.",
+      "Use a wilt-resistant variety in fields with a wilt history.",
+      "Harvest young, glossy fruit; over-mature fruit become seedy and lose market value."
+    ],
+    "common_pests": ["Shoot and fruit borer", "Whitefly", "Jassid", "Mites", "Root-knot nematode"],
+    "disease_ids": ["tomato-bacterial-wilt", "brinjal-little-leaf", "chickpea-fusarium-wilt", "powdery-mildew-general"],
+    "harvest_notes": "Harvest when the fruit is tender and glossy, before the seeds harden. Pick with a small stalk, every 5–7 days.",
+    "expected_yield": "20 – 35 t/ha",
+    "tips": [
+      "Grafting brinjal onto a wilt-resistant rootstock is a very reliable way to survive bacterial wilt.",
+      "Use pheromone traps for shoot and fruit borer and remove infested shoots weekly."
+    ]
+  }
+]

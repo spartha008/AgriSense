@@ -1,0 +1,278 @@
+[
+  {
+    "month": 1,
+    "name": "January",
+    "season": "Rabi (peak winter)",
+    "focus": "Protect standing rabi crops from cold and frost; prepare for summer crops.",
+    "sow": ["Late-sown wheat only in extreme delay", "Summer vegetables in nursery (chilli, brinjal, tomato)", "Sunflower and summer maize in the south"],
+    "care": [
+      "Irrigate wheat at the crown root initiation and tillering stages — do not miss CRI.",
+      "Give light irrigation on frost-risk nights; moist soil holds more heat than dry soil.",
+      "Earth up potato ridges so tubers are not exposed to light and greening.",
+      "Top dress mustard and wheat with the second nitrogen split if not already done.",
+      "Harvest sugarcane in the subtropics at peak maturity.",
+      "Prune and train fruit trees (mango, guava) before the new flush."
+    ],
+    "watch": [
+      "Frost and cold waves damaging young crops and vegetables",
+      "Aphids building up on mustard and wheat in warm spells",
+      "Late blight in potato and tomato during foggy, humid weather",
+      "Powdery mildew on vegetables as days warm up",
+      "Termites and rodents in dry fields"
+    ],
+    "irrigation_hint": "Light, frequent irrigation is better than heavy flooding in cold weather. Irrigate in the morning so the soil warms during the day."
+  },
+  {
+    "month": 2,
+    "name": "February",
+    "season": "Rabi (late winter)",
+    "focus": "Push grain filling and pod development; begin summer crop and nursery work.",
+    "sow": ["Spring sugarcane", "Summer maize and groundnut in the south", "Summer vegetables transplantation", "Fodder crops (maize, cowpea)"],
+    "care": [
+      "Irrigate wheat at the flowering and milk stages — heat stress from late February is the main risk.",
+      "Apply the final nitrogen to potato only if the crop is pale, then stop.",
+      "Spray potassium nitrate or a micronutrient mix on vegetables after each picking.",
+      "Thin and weed mustard and chickpea before they close the rows.",
+      "Prepare land for summer crops with deep ploughing and FYM application.",
+      "Harvest early sugarcane in the tropics."
+    ],
+    "watch": [
+      "Wheat rust (yellow and brown rust) — scout weekly and spray at the first pustules",
+      "Aphids on mustard, wheat and vegetables as the weather warms",
+      "Pod borer (Helicoverpa) on chickpea and tomato",
+      "Early blight in tomato and potato",
+      "Heat spike damaging flowering wheat"
+    ],
+    "irrigation_hint": "Wheat and mustard need water at flowering. Do not let the soil dry out now — this stage determines the final yield."
+  },
+  {
+    "month": 3,
+    "name": "March",
+    "season": "Rabi harvest and Zaid start",
+    "focus": "Harvest rabi crops timely and start the summer (Zaid) season.",
+    "sow": ["Summer groundnut and sesame", "Green gram and black gram (summer pulses)", "Okra, cucurbits, watermelon", "Summer rice in the east"],
+    "care": [
+      "Harvest wheat at 14–16% moisture and dry to 12% before storage.",
+      "Harvest mustard in the early morning to reduce pod shattering.",
+      "Harvest chickpea when pods turn brown — do not let them shatter.",
+      "Harvest the remaining sugarcane and take a ratoon if the crop was healthy.",
+      "Irrigate summer crops lightly and frequently; mulching is essential.",
+      "Start mango orchard irrigation once flowering begins."
+    ],
+    "watch": [
+      "Sudden heat rise causing poor grain filling in wheat",
+      "Stored-grain pests in wheat and pulses",
+      "Thrips and mite flare-ups on vegetables as the weather turns hot",
+      "Water shortage for summer crops",
+      "Early summer thunderstorms with hail"
+    ],
+    "irrigation_hint": "Summer irrigation needs rise sharply. Mulch, use drip, and irrigate in the early morning or evening to cut evaporation losses."
+  },
+  {
+    "month": 4,
+    "name": "April",
+    "season": "Zaid (summer)",
+    "focus": "Conserve water, protect summer crops from heat, and prepare for kharif.",
+    "sow": ["Early kharif nursery in the south", "Fodder maize and bajra", "Mungbean and cowpea", "Summer vegetables"],
+    "care": [
+      "Mulch summer crops to conserve soil moisture and reduce soil temperature.",
+      "Use drip and schedule irrigation at 3–5 day intervals for sandy soils.",
+      "Provide shade or protection for nursery beds and young transplants.",
+      "Collect and store rainwater; clean farm ponds and check bunds.",
+      "Repair and service irrigation pumps, drip lines and filters before the monsoon.",
+      "Apply FYM and prepare compost for kharif sowing."
+    ],
+    "watch": [
+      "Heat waves above 40 °C causing flower drop and sunscald",
+      "Water scarcity and falling groundwater levels",
+      "Mites and thrips multiplying rapidly in dry heat",
+      "Leaf curl virus in summer vegetables due to high whitefly",
+      "Loo (hot dry wind) damage to young orchards"
+    ],
+    "irrigation_hint": "This is the peak water-stress month. Irrigate before dawn, use every water-saving method available, and never let young plants dry out."
+  },
+  {
+    "month": 5,
+    "name": "May",
+    "season": "Zaid and pre-monsoon",
+    "focus": "Finish land preparation and buy kharif inputs before the monsoon arrives.",
+    "sow": ["Kharif nursery for rice in the south and east", "Onion nursery for kharif", "Chilli and brinjal nursery", "Groundnut pre-monsoon in some areas"],
+    "care": [
+      "Deep summer ploughing to expose soil-borne pests and pathogens.",
+      "Get soil tested now — it takes 2–3 weeks and guides the whole kharif plan.",
+      "Buy certified seed, seed treatment chemicals and bio-fertilisers early.",
+      "Apply FYM and green manure crops (dhaincha, sunhemp) before the rains.",
+      "Clean and repair field bunds, channels and drainage outlets.",
+      "Prune mango trees after harvest and apply manure."
+    ],
+    "watch": [
+      "Heat wave and delayed monsoon onset",
+      "Immediate pre-monsoon pests (shoot fly, stem borer) in early-sown crops",
+      "Fake or substandard seed in the market — buy from licensed dealers",
+      "Pre-monsoon thunderstorm and hail damage",
+      "Whitefly and thrips building up before the rains"
+    ],
+    "irrigation_hint": "Use the waiting period to repair water infrastructure. Every day of early land preparation saves water later."
+  },
+  {
+    "month": 6,
+    "name": "June",
+    "season": "Kharif (monsoon onset)",
+    "focus": "Sow kharif crops with the monsoon and manage the first 30 critical days.",
+    "sow": ["Rice nursery and transplanting", "Maize, bajra, jowar", "Soybean, groundnut", "Cotton, sesame", "Upland rice and pulses"],
+    "care": [
+      "Sow only after 50–75 mm of rain or a pre-sowing irrigation so the seed zone is moist.",
+      "Treat seed with fungicide and bio-fertiliser before sowing.",
+      "Timely weeding at 20–25 days is the single biggest kharif yield factor.",
+      "Avoid sowing in a dry spell forecast — wait for a good soaking rain.",
+      "Make drainage channels in the field to remove excess rainwater quickly.",
+      "Transplant rice seedlings 21–25 days old for best tillering."
+    ],
+    "watch": [
+      "Dry spell after sowing causing poor germination",
+      "Shoot fly in late-sown jowar and bajra",
+      "Early bacterial blight and blast in rice if it rains heavily after transplanting",
+      "White grub in groundnut on light soils",
+      "Waterlogging damage in heavy soils"
+    ],
+    "irrigation_hint": "If the monsoon lags, give one protective irrigation to save the crop. After heavy rain, drain the field — waterlogging is as damaging as drought."
+  },
+  {
+    "month": 7,
+    "name": "July",
+    "season": "Kharif (peak monsoon)",
+    "focus": "Weed, thin and top dress; keep drainage channels open.",
+    "sow": ["Late kharif/upland crops", "Onion kharif transplanting", "Vegetable nursery for kharif and early rabi"],
+    "care": [
+      "Complete the first weeding and thinning before the canopy closes.",
+      "Apply the first nitrogen top dressing to maize, bajra and rice.",
+      "Earth up cotton and maize to prevent lodging in heavy rain.",
+      "Keep drains clear and drain waterlogged patches within 24 hours.",
+      "Stake young fruit plants and vegetable crops against wind.",
+      "Rogue out diseased and off-type plants early."
+    ],
+    "watch": [
+      "Bacterial blight in rice after storms",
+      "Fall armyworm in young maize whorls",
+      "Downy mildew in bajra during humid weather",
+      "Stem rot and collar rot in soybean if water stands",
+      "Nutrient leaching in sandy soils after heavy rain"
+    ],
+    "irrigation_hint": "Drainage matters more than irrigation this month. Open the outlets after every heavy spell and check for standing water in low spots."
+  },
+  {
+    "month": 8,
+    "name": "August",
+    "season": "Kharif (flowering stage)",
+    "focus": "Protect flowering crops and manage pest and disease pressure.",
+    "sow": ["Late kharif vegetables", "Onion and cabbage transplanting", "Short-duration pulses after early kharif harvest"],
+    "care": [
+      "Apply the second nitrogen top dressing at the flowering or knee-high stage.",
+      "Monitor pod borer, fruit borer and bollworm with pheromone traps.",
+      "Spray protectively before long cloudy, humid spells break out disease.",
+      "Remove and destroy pest-affected shoots in brinjal and chilli.",
+      "Drain excess water and keep the crop from suffering at flowering.",
+      "Top dress long-duration sugarcane."
+    ],
+    "watch": [
+      "Blast and sheath blight in rice during humid, cloudy weather",
+      "Bollworm and pink bollworm in cotton",
+      "Tikka leaf spot in groundnut",
+      "Turcicum leaf blight and rust in maize",
+      "Continuous rain preventing spraying — plan for rain-free windows"
+    ],
+    "irrigation_hint": "The crop is at its most water-sensitive stage. Do not allow a dry spell at flowering — a single protective irrigation can save 20–30% of the yield."
+  },
+  {
+    "month": 9,
+    "name": "September",
+    "season": "Kharif (grain filling) and early rabi sowing",
+    "focus": "Grain filling of kharif crops and sowing of early rabi crops.",
+    "sow": ["Early rabi maize and mustard", "Rabi fodder", "Late kharif vegetables", "Autumn sugarcane"],
+    "care": [
+      "Protect grain filling from moisture stress and pests.",
+      "Plan the rabi crop and buy seed before the October rush.",
+      "Continue protective sprays for rust and blight in late kharif crops.",
+      "Prepare rabi land and incorporate the previous crop residue.",
+      "Start onion rabi nursery and vegetable nurseries for the winter.",
+      "Harvest early kharif pulses and fodder."
+    ],
+    "watch": [
+      "Late-season rust in groundnut and soybean",
+      "Armyworm and grasshoppers in maturing cereals",
+      "Weevil and storage pest damage on early harvested grain",
+      "Cytoplasmic male sterility issues in late kharif hybrids",
+      "Heavy late-September rain damaging maturing crops"
+    ],
+    "irrigation_hint": "Kharif grain filling still needs moisture. If September turns dry, give one irrigation at grain filling to protect the yield."
+  },
+  {
+    "month": 10,
+    "name": "October",
+    "season": "Kharif harvest and Rabi sowing",
+    "focus": "Harvest kharif, sow rabi on time and manage residue.",
+    "sow": ["Wheat (early to timely window)", "Mustard, chickpea (early)", "Barley, oats", "Onion and garlic", "Potato planting in the plains"],
+    "care": [
+      "Harvest kharif crops at the correct moisture and dry thoroughly.",
+      "Sow wheat in the first fortnight of November for the best yield — do not delay.",
+      "Treat wheat seed and use a seed drill for uniform depth.",
+      "Apply full P and K and one-third N as basal at sowing.",
+      "Do not burn crop residue; incorporate it or use it as mulch.",
+      "Prepare potato ridges and apply FYM."
+    ],
+    "watch": [
+      "Late-sown wheat losing yield for every week of delay",
+      "Termites on dry rabi seedbeds",
+      "Stored-grain pests in harvested kharif grain",
+      "Warm weather triggering aphids before winter sets in",
+      "Residue burning and the resulting nutrient loss"
+    ],
+    "irrigation_hint": "Pre-sowing irrigation (palewa) ensures good germination and a uniform stand. Do not sow in dry soil and hope for rain."
+  },
+  {
+    "month": 11,
+    "name": "November",
+    "season": "Rabi (establishment)",
+    "focus": "Complete rabi sowing and give the first critical irrigations.",
+    "sow": ["Late wheat and barley", "Rabi pulses (late chickpea, lentil)", "Potato planting", "Rabi vegetables transplanting", "Berseem and lucerne"],
+    "care": [
+      "Complete all rabi sowing by the end of November.",
+      "Irrigate wheat at crown root initiation (20–25 days after sowing).",
+      "Apply the first top-dressing nitrogen to wheat and mustard.",
+      "Earth up potato ridges and irrigate lightly after planting.",
+      "Keep a close watch for early aphids and rust.",
+      "Protect young vegetable transplants from cold winds with straw covers."
+    ],
+    "watch": [
+      "Aphid buildup on mustard and wheat",
+      "Yellow rust appearing in cool, humid pockets",
+      "Frost early in northern and central India",
+      "Water stress at the crown root initiation of wheat",
+      "Termites and cutting worms in dry patches"
+    ],
+    "irrigation_hint": "Crown root initiation irrigation is the most important single irrigation in wheat. A missed CRI irrigation can cost 20% of the yield."
+  },
+  {
+    "month": 12,
+    "name": "December",
+    "season": "Rabi (vegetative)",
+    "focus": "Protect crops from cold and manage pest and disease pressure.",
+    "sow": ["Nothing major; only late planting in warmer regions", "Nursery for spring vegetables", "Early summer crop planning"],
+    "care": [
+      "Light irrigation on frost-risk nights raises soil temperature and protects the crop.",
+      "Apply the second nitrogen split to wheat and mustard with irrigation.",
+      "Spray potassium and micronutrients on vegetables to fight cold stress.",
+      "Harvest sugarcane and start ratoon management in the tropics.",
+      "Cover nurseries at night and remove the cover during the day.",
+      "Clean and store farm machinery and repair implements."
+    ],
+    "watch": [
+      "Frost and cold waves damaging mustard, potato and vegetables",
+      "Late blight in potato and tomato in foggy weather",
+      "Powdery mildew on vegetables",
+      "Fog reducing photosynthesis and delaying grain filling",
+      "Aphids and painted bug on mustard"
+    ],
+    "irrigation_hint": "In cold weather irrigate in the morning so the soil warms during the day. Avoid late-evening irrigation on frost nights."
+  }
+]

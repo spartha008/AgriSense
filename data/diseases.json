@@ -1,0 +1,2104 @@
+[
+  {
+    "id": "rice-blast",
+    "name": "Rice Blast",
+    "crops": ["Rice (Paddy)"],
+    "crop_ids": ["rice"],
+    "pathogen_type": "Fungal",
+    "pathogen": "Magnaporthe oryzae (Pyricularia oryzae)",
+    "severity": "high",
+    "overview": "The most destructive fungal disease of rice worldwide. It attacks leaves, nodes, neck and panicle, and can cause total loss in a susceptible variety under favourable weather.",
+    "image_cues": "Photograph a single affected leaf flat and in even light. Blast lesions are spindle or diamond shaped with a grey-white centre and a dark brown margin.",
+    "symptoms": [
+      "Spindle (diamond) shaped spots on leaves with grey-white centres and brown margins",
+      "Lesions enlarge and merge, killing the whole leaf (leaf blast)",
+      "Black discolouration at the node (node blast) which snaps the stem",
+      "Neck blast: brown-black rot at the panicle base causing the panicle to hang and chaffy grains",
+      "Severe cases produce a burnt or scorched appearance across the field"
+    ],
+    "favourable": [
+      "High humidity (above 90%) with leaf wetness",
+      "Temperature 24–28 °C with intermittent rain and cloudy days",
+      "Excess nitrogen fertiliser making leaf blades lush and soft",
+      "Continuous fog or dew over several days"
+    ],
+    "spread": "Airborne spores spread over long distances. Survives in infected seed and crop residue. Wind and rain splash move spores between fields.",
+    "management": {
+      "cultural": [
+        "Use blast-resistant varieties recommended for your region.",
+        "Split nitrogen into 3 doses and avoid excess or late nitrogen.",
+        "Maintain balanced silicon and potassium nutrition to toughen leaf blades.",
+        "Avoid dense planting; provide good air movement.",
+        "Burn or incorporate infected residue after harvest."
+      ],
+      "organic": [
+        "Pseudomonas fluorescens or Bacillus subtilis seed treatment and foliar spray.",
+        "Neem oil or Trichoderma-based sprays reduce spread when applied early.",
+        "Silicon supplementation (rice husk ash) is a cheap preventive measure."
+      ],
+      "chemical": [
+        "Seed treatment with carbendazim or tricyclazole before sowing.",
+        "Foliar spray of tricyclazole 75% WP (0.6 g/L) or isoprothiolane at boot leaf stage.",
+        "Repeat spray at 50% heading if neck blast pressure is high.",
+        "Rotate fungicide groups to avoid resistance."
+      ]
+    },
+    "prevention": [
+      "Treat seed with hot water (52–54 °C for 10 minutes) or a fungicide.",
+      "Destroy stubble and weeds that host the fungus.",
+      "Balance nitrogen with potassium and silicon."
+    ],
+    "visual_signatures": ["gray_center_brown_margin", "dark_necrotic_spots", "yellow_halo_spots", "patchy_wilting"]
+  },
+  {
+    "id": "rice-bacterial-leaf-blight",
+    "name": "Bacterial Leaf Blight",
+    "crops": ["Rice (Paddy)"],
+    "crop_ids": ["rice"],
+    "pathogen_type": "Bacterial",
+    "pathogen": "Xanthomonas oryzae pv. oryzae",
+    "severity": "high",
+    "overview": "A serious bacterial disease that typically appears at tillering and can cause up to 50% yield loss. It is especially damaging when heavy rain or flooding follows fertiliser application.",
+    "image_cues": "Look for yellowish-white stripes running along the leaf margins from the tip downwards. Early morning you may see milky bacterial ooze on the leaf.",
+    "symptoms": [
+      "Water-soaked to yellowish stripes starting at the leaf tip or margin",
+      "Lesions turn straw white or pale yellow and extend along the veins",
+      "Leaves roll, dry and turn greyish white (kresek) in severe early infection",
+      "Milky or yellowish bacterial ooze appears on cut ends in the morning",
+      "Wilting of seedlings within weeks of transplanting in the kresek form"
+    ],
+    "favourable": [
+      "Heavy rain, strong winds and flooding",
+      "High humidity and temperature around 25–30 °C",
+      "Excess nitrogen with low soil potassium",
+      "Standing water after storms"
+    ],
+    "spread": "Bacteria survive in seed, stubble and irrigation water. Enter through leaf wounds and hydathodes. Wind-driven rain and flood water spread infection rapidly.",
+    "management": {
+      "cultural": [
+        "Grow resistant varieties and avoid very susceptible ones after a wet forecast.",
+        "Drain the field and stop nitrogen when symptoms appear.",
+        "Avoid clipping seedling tips at transplanting, which creates entry wounds.",
+        "Do not flood the field immediately after applying urea."
+      ],
+      "organic": [
+        "Pseudomonas fluorescens seed treatment and spray.",
+        "Balanced potassium and calcium nutrition reduces susceptibility.",
+        "Copper-based sprays (Bordeaux mixture 1%) reduce spread."
+      ],
+      "chemical": [
+        "Streptocycline seed soak (0.025%) followed by two sprays at 10-day intervals.",
+        "Copper oxychloride 2.5 g/L with streptocycline 0.15 g/L at early symptom stage.",
+        "There is no direct cure; these sprays only slow the epidemic."
+      ]
+    },
+    "prevention": [
+      "Use certified disease-free seed.",
+      "Avoid excess nitrogen and keep potassium adequate.",
+      "Drain fields after heavy rain to reduce water spread."
+    ],
+    "visual_signatures": ["yellow_margin", "uniform_chlorosis", "patchy_wilting", "dark_necrotic_spots"]
+  },
+  {
+    "id": "rice-brown-spot",
+    "name": "Rice Brown Spot (Helminthosporium)",
+    "crops": ["Rice (Paddy)"],
+    "crop_ids": ["rice"],
+    "pathogen_type": "Fungal",
+    "pathogen": "Bipolaris oryzae",
+    "severity": "medium",
+    "overview": "A common disease of nutritionally stressed or drought-affected rice. It was the primary cause of the historic Bengal famine and remains important on marginal soils.",
+    "image_cues": "Oval brown spots with a lighter centre and a yellow halo scattered evenly over the leaf.",
+    "symptoms": [
+      "Small oval to circular brown spots with a grey or light centre",
+      "Spots have a distinct yellow halo and are evenly scattered",
+      "Severe infection coalesces and turns leaves brown"
+    ],
+    "favourable": [
+      "Nutrient deficient or drought-stressed soil",
+      "High humidity with warm temperature around 25–30 °C",
+      "Poorly drained or lateritic soils low in silicon and potassium"
+    ],
+    "spread": "Seed-borne and air-borne. Spreads through rain splash and spores in the air.",
+    "management": {
+      "cultural": [
+        "Correct soil fertility, especially nitrogen, potassium and silicon.",
+        "Avoid water stress; maintain proper irrigation.",
+        "Use certified treated seed."
+      ],
+      "organic": [
+        "Trichoderma seed treatment.",
+        "Silicon supplementation through rice husk ash.",
+        "Improved organic matter to boost general plant vigour."
+      ],
+      "chemical": [
+        "Seed treatment with carbendazim or mancozeb.",
+        "Foliar spray of mancozeb 2 g/L or propiconazole 1 ml/L at the boot stage if severe."
+      ]
+    },
+    "prevention": [
+      "Keep the crop well nourished and free from drought stress.",
+      "Use healthy seed and improve soil organic matter."
+    ],
+    "visual_signatures": ["yellow_halo_spots", "dark_necrotic_spots", "uniform_chlorosis"]
+  },
+  {
+    "id": "rice-sheath-blight",
+    "name": "Rice Sheath Blight",
+    "crops": ["Rice (Paddy)"],
+    "crop_ids": ["rice"],
+    "pathogen_type": "Fungal",
+    "pathogen": "Rhizoctonia solani",
+    "severity": "medium",
+    "overview": "A soil-borne disease that attacks the leaf sheath near the water line, causing lodging and unfilled grains in dense, high-nitrogen crops.",
+    "image_cues": "Photograph the lower stem and sheath. Look for greenish-grey oval lesions with a distinct brown border, often with a banded pattern.",
+    "symptoms": [
+      "Oval greenish-grey lesions on the sheath near the water line",
+      "Lesions have a brown margin and often show a banded pattern",
+      "Sheath rots, the plant lodges, and panicles fail to fill",
+      "Webby white mycelium and small brown sclerotia visible in severe cases"
+    ],
+    "favourable": [
+      "Dense planting with high humidity",
+      "High nitrogen levels",
+      "Continuous flooding and warm temperature 28–32 °C"
+    ],
+    "spread": "Survives as sclerotia in soil and stubble. Spreads through flood water and contact between plants.",
+    "management": {
+      "cultural": [
+        "Reduce plant density and split nitrogen applications.",
+        "Adopt AWD instead of continuous flooding.",
+        "Deep plough to bury sclerotia."
+      ],
+      "organic": [
+        "Trichoderma viride soil application.",
+        "Pseudomonas fluorescens foliar spray."
+      ],
+      "chemical": [
+        "Hexaconazole 2 ml/L or validamycin 2.5 ml/L sprayed at the sheath.",
+        "Propiconazole plus a sticker to reach the lower sheath."
+      ]
+    },
+    "prevention": [
+      "Avoid excessive nitrogen and very dense stands.",
+      "Rotate with a non-host crop such as pulses."
+    ],
+    "visual_signatures": ["gray_center_brown_margin", "dark_necrotic_spots", "patchy_wilting"]
+  },
+  {
+    "id": "wheat-leaf-rust",
+    "name": "Wheat Leaf Rust (Brown Rust)",
+    "crops": ["Wheat"],
+    "crop_ids": ["wheat"],
+    "pathogen_type": "Fungal",
+    "pathogen": "Puccinia triticina",
+    "severity": "high",
+    "overview": "The most widely distributed wheat rust. Orange-brown pustules on the leaves reduce photosynthesis and can cut yield by 20–40% in an early epidemic.",
+    "image_cues": "Sharp photo of the upper leaf surface showing many small round orange-brown pustules scattered randomly, not in neat lines.",
+    "symptoms": [
+      "Round to oval orange-brown pustules scattered randomly on the leaf blade",
+      "Pustules erupt through the leaf surface and rub off as orange powder",
+      "Leaves yellow and dry from the tip as the infection advances"
+    ],
+    "favourable": [
+      "Cool to warm temperature 15–22 °C",
+      "High humidity with dew or intermittent rain",
+      "Late sowing and a long vegetative period"
+    ],
+    "spread": "Airborne spores travel hundreds of kilometres. The disease builds up fastest in warm, humid February–March weather.",
+    "management": {
+      "cultural": [
+        "Grow rust-resistant varieties suited to your region.",
+        "Sow on time to avoid a late, prolonged rust season.",
+        "Avoid excess nitrogen which makes leaves more susceptible."
+      ],
+      "organic": [
+        "Sulphur dust or sulphur-based sprays give partial control.",
+        "Neem-based formulations reduce spore germination but are weak alone."
+      ],
+      "chemical": [
+        "Propiconazole 25% EC 1 ml/L spray at first sign of pustules.",
+        "Tebuconazole 1 ml/L or a triazole plus strobilurin mix for a strong protective effect.",
+        "Spray in the morning with a high water volume (about 400 L/ha) for good coverage."
+      ]
+    },
+    "prevention": [
+      "Monitor fields weekly from January and act on the very first pustules.",
+      "Use resistant varieties and destroy volunteer wheat plants that carry the fungus."
+    ],
+    "visual_signatures": ["orange_pustules", "yellow_pustules", "uniform_chlorosis"]
+  },
+  {
+    "id": "wheat-yellow-rust",
+    "name": "Wheat Stripe Rust (Yellow Rust)",
+    "crops": ["Wheat"],
+    "crop_ids": ["wheat"],
+    "pathogen_type": "Fungal",
+    "pathogen": "Puccinia striiformis",
+    "severity": "high",
+    "overview": "A devastating cool-weather rust that can destroy a crop within weeks if left unchecked. It is a notifiable disease in several countries.",
+    "image_cues": "Photograph the leaf surface. Yellow-orange pustules form in neat parallel lines (stripes) between the veins.",
+    "symptoms": [
+      "Bright yellow to orange pustules arranged in stripes between the leaf veins",
+      "Leaves split and shred, turning pale and dying early",
+      "Pustules also appear on the sheath, glumes and awns"
+    ],
+    "favourable": [
+      "Cool temperature 8–18 °C with high humidity and dew",
+      "Cloudy weather during the vegetative stage",
+      "Late sowing and a susceptible variety"
+    ],
+    "spread": "Wind-blown spores can travel very long distances and cause sudden regional epidemics.",
+    "management": {
+      "cultural": [
+        "Sow resistant varieties and avoid highly susceptible ones in cool, wet valleys.",
+        "Destroy volunteer wheat that bridges the season.",
+        "Sow on time to escape the cool epidemic window."
+      ],
+      "organic": [
+        "Sulphur sprays have limited effect at high disease pressure.",
+        "Focus on resistant varieties rather than organic control."
+      ],
+      "chemical": [
+        "Propiconazole 1 ml/L or tebuconazole 1 ml/L immediately at the first pustules.",
+        "Repeat after 15 days if the weather stays cool and humid.",
+        "Use a mix of Triazole + Strobilurin for a longer protective period."
+      ]
+    },
+    "prevention": [
+      "Scout relentlessly in cool, humid periods and spray at first sight.",
+      "Report unusual outbreaks to your local agriculture office — it spreads regionally."
+    ],
+    "visual_signatures": ["yellow_pustules", "orange_pustules", "uniform_chlorosis"]
+  },
+  {
+    "id": "wheat-powdery-mildew",
+    "name": "Wheat Powdery Mildew",
+    "crops": ["Wheat"],
+    "crop_ids": ["wheat"],
+    "pathogen_type": "Fungal",
+    "pathogen": "Blumeria graminis f. sp. tritici",
+    "severity": "medium",
+    "overview": "A white powdery growth on leaves and stems of densely sown, heavily fertilised wheat. It reduces tillering and grain filling.",
+    "image_cues": "White to grey powdery patches on the upper leaf surface and stem, easy to rub off with a finger.",
+    "symptoms": [
+      "White to grey powdery patches on leaves, sheaths and stems",
+      "The powder can be wiped off, revealing yellow or brown leaf tissue below",
+      "Leaves turn yellow and dry prematurely in severe attacks"
+    ],
+    "favourable": [
+      "Temperature 15–22 °C with high humidity and cloudy weather",
+      "Dense sowing and lush growth from excess nitrogen",
+      "Poor air movement in sheltered fields"
+    ],
+    "spread": "Airborne conidia spread during the growing season; the fungus also survives on crop residue.",
+    "management": {
+      "cultural": [
+        "Reduce sowing density and avoid excess nitrogen.",
+        "Grow resistant varieties.",
+        "Ensure good air circulation and adequate potassium."
+      ],
+      "organic": [
+        "Potassium bicarbonate or milk spray (1:9) gives partial control.",
+        "Sulphur-based sprays work well against powdery mildew specifically."
+      ],
+      "chemical": [
+        "Sulphur 80% WP 2 g/L or wettable sulphur spray at early stages.",
+        "Propiconazole 1 ml/L or a strobilurin mix if the disease is severe.",
+        "Apply with good coverage of the upper leaf surface."
+      ]
+    },
+    "prevention": [
+      "Balance nitrogen and potassium in the fertiliser schedule.",
+      "Use clean seed and avoid very dense stands."
+    ],
+    "visual_signatures": ["white_powder", "uniform_chlorosis", "silvery_streaks"]
+  },
+  {
+    "id": "wheat-karnal-bunt",
+    "name": "Wheat Karnal Bunt",
+    "crops": ["Wheat"],
+    "crop_ids": ["wheat"],
+    "pathogen_type": "Fungal",
+    "pathogen": "Tilletia indica",
+    "severity": "medium",
+    "overview": "A seed- and soil-borne smut that partially converts grains into a black powdery mass with a fishy smell. Even a small incidence causes market rejection because of quarantine restrictions.",
+    "image_cues": "Photograph split infected grains — the kernel is partly replaced with black powder. Leaf symptoms are absent, so ear and grain photos matter most.",
+    "symptoms": [
+      "Partially bunted grains with a black powdery mass and a fishy smell",
+      "Only part of the grain is affected, unlike loose smut",
+      "Symptoms visible only at maturity when the earhead opens"
+    ],
+    "favourable": [
+      "Cool, wet weather with high humidity during ear emergence",
+      "Irrigation during flowering with cloudy conditions",
+      "Infected seed or soil-borne spores"
+    ],
+    "spread": "Spores survive in soil and on seed. Wind and rain splash carry spores to the flowering spike.",
+    "management": {
+      "cultural": [
+        "Use certified disease-free seed.",
+        "Avoid irrigation during ear emergence and flowering.",
+        "Rotate with a non-host crop for at least one season."
+      ],
+      "organic": [
+        "Solarisation of soil and removal of infected earheads.",
+        "Trichoderma soil application offers some suppression."
+      ],
+      "chemical": [
+        "Seed treatment with carboxin or tebuconazole formulation.",
+        "Propiconazole spray at ear emergence reduces infection.",
+        "Deep summer ploughing to bury spores."
+      ]
+    },
+    "prevention": [
+      "Never save seed from an infected field.",
+      "Time irrigation to avoid flowering-stage wetness."
+    ],
+    "visual_signatures": ["black_spots", "dark_necrotic_spots"]
+  },
+  {
+    "id": "maize-turcicum-blight",
+    "name": "Northern Corn Leaf Blight",
+    "crops": ["Maize (Corn)", "Pearl Millet (Bajra)"],
+    "crop_ids": ["maize", "bajra"],
+    "pathogen_type": "Fungal",
+    "pathogen": "Exserohilum turcicum",
+    "severity": "high",
+    "overview": "Large cigar-shaped grey-green lesions on maize leaves that destroy leaf area and can cause 30–50% yield loss in humid weather.",
+    "image_cues": "Photograph a leaf showing long, cigar or boat-shaped grey-green to tan lesions with smooth rounded ends.",
+    "symptoms": [
+      "Long, cigar or boat-shaped grey-green lesions, 3–15 cm long",
+      "Lesions turn tan or brown with dark spore masses in the centre",
+      "Heavy infection dries the leaves from the lower canopy upwards"
+    ],
+    "favourable": [
+      "Temperature 18–27 °C with high humidity and prolonged leaf wetness",
+      "Cloudy, rainy weather for several days",
+      "Continuous maize cropping and surface residue"
+    ],
+    "spread": "Airborne spores plus residue-borne inoculum. Wind and rain spread the disease quickly within a field.",
+    "management": {
+      "cultural": [
+        "Grow resistant hybrids — the cheapest and most effective control.",
+        "Rotate with a non-host crop and incorporate residue after harvest.",
+        "Avoid overhead irrigation in the evening."
+      ],
+      "organic": [
+        "Trichoderma and Pseudomonas sprays reduce inoculum.",
+        "Neem oil spray limits spread when applied early."
+      ],
+      "chemical": [
+        "Mancozeb 2.5 g/L or chlorothalonil 2 g/L at first lesions.",
+        "Propiconazole 1 ml/L for a stronger curative effect.",
+        "Repeat after 12–15 days if the weather stays humid."
+      ]
+    },
+    "prevention": [
+      "Rotate maize with soybean, groundnut or another legume.",
+      "Use resistant hybrids in high-humidity regions."
+    ],
+    "visual_signatures": ["gray_center_brown_margin", "dark_necrotic_spots", "uniform_chlorosis"]
+  },
+  {
+    "id": "maize-maydis-leaf-spot",
+    "name": "Gray Leaf Spot (Maize)",
+    "crops": ["Maize (Corn)"],
+    "crop_ids": ["maize"],
+    "pathogen_type": "Fungal",
+    "pathogen": "Cercospora zeae-maydis",
+    "severity": "medium",
+    "overview": "Rectangular grey-brown lesions that run parallel to the veins. It is a residue-borne disease that builds up in continuous no-till maize.",
+    "image_cues": "Photograph the leaf. Lesions are narrow, rectangular and strictly limited by the veins, giving a streaky grey-brown look.",
+    "symptoms": [
+      "Narrow rectangular lesions bounded by leaf veins",
+      "Lesions are tan to grey-brown, often with a faint yellow halo",
+      "Severe infection causes the whole leaf to blight and die"
+    ],
+    "favourable": [
+      "Warm humid weather 25–30 °C with extended leaf wetness",
+      "Continuous no-till maize with surface residue",
+      "High humidity and dew periods over 12 hours"
+    ],
+    "spread": "Spores from crop residue are splashed and blown onto new leaves.",
+    "management": {
+      "cultural": [
+        "Rotate away from maize for one season and bury residue.",
+        "Use tolerant hybrids.",
+        "Avoid late planting in a humid season."
+      ],
+      "organic": [
+        "Residue management is the key organic measure.",
+        "Bio-fungicide sprays give only partial control."
+      ],
+      "chemical": [
+        "Azoxystrobin plus propiconazole at first symptoms.",
+        "Mancozeb 2.5 g/L for protective cover."
+      ]
+    },
+    "prevention": [
+      "Tillage or residue removal reduces inoculum strongly.",
+      "Use a maize–legume rotation."
+    ],
+    "visual_signatures": ["gray_center_brown_margin", "uniform_chlorosis", "dark_necrotic_spots"]
+  },
+  {
+    "id": "maize-downy-mildew",
+    "name": "Downy Mildew",
+    "crops": ["Maize (Corn)", "Pearl Millet (Bajra)"],
+    "crop_ids": ["maize", "bajra"],
+    "pathogen_type": "Fungal (Oomycete)",
+    "pathogen": "Sclerospora, Peronosclerospora species",
+    "severity": "high",
+    "overview": "A systemic disease that produces yellowing and a white downy growth on the underside of leaves. Infected plants are stunted and often produce no grain.",
+    "image_cues": "Photograph both leaf surfaces. The upper side shows pale yellow streaks and the underside has a white to grey downy fuzz in the morning.",
+    "symptoms": [
+      "Pale yellow streaks or patches on the upper leaf surface",
+      "White to grey downy (fuzzy) growth on the underside of the leaf",
+      "Chlorotic leaves may shred into ribbons",
+      "Stunted plants with excessive tillering (green ear) and no grain"
+    ],
+    "favourable": [
+      "High humidity, fog and temperature 20–25 °C",
+      "Waterlogged or low-lying fields",
+      "Continuous cropping of a susceptible hybrid"
+    ],
+    "spread": "Soil-borne and seed-borne, with airborne spores in humid weather. Rain splash and wind move the disease.",
+    "management": {
+      "cultural": [
+        "Grow resistant hybrids.",
+        "Remove and destroy infected plants as soon as they appear.",
+        "Improve drainage and avoid low-lying waterlogged plots.",
+        "Rotate with a non-host crop."
+      ],
+      "organic": [
+        "Seed treatment with Trichoderma or Pseudomonas.",
+        "Rogue out infected plants promptly."
+      ],
+      "chemical": [
+        "Seed treatment with metalaxyl (Apron) at 2 g/kg seed.",
+        "Metalaxyl + mancozeb foliar spray at early symptoms.",
+        "Foliar phosphonate sprays reduce systemic spread."
+      ]
+    },
+    "prevention": [
+      "Metalaxyl seed treatment is the single most effective preventive step.",
+      "Use resistant hybrids and ensure good drainage."
+    ],
+    "visual_signatures": ["uniform_chlorosis", "white_powder", "yellow_margin", "silvery_streaks"]
+  },
+  {
+    "id": "bajra-downy-mildew",
+    "name": "Pearl Millet Downy Mildew",
+    "crops": ["Pearl Millet (Bajra)"],
+    "crop_ids": ["bajra"],
+    "pathogen_type": "Fungal (Oomycete)",
+    "pathogen": "Sclerospora graminicola",
+    "severity": "high",
+    "overview": "The most damaging disease of pearl millet, capable of wiping out a crop. It causes green ear and stunting in systemic infections.",
+    "image_cues": "Look for yellowing leaves with a white downy underside growth and the distinctive green-ear symptom where the earhead becomes a leafy mass.",
+    "symptoms": [
+      "Yellow to pale green streaks on leaves",
+      "White downy sporulation on the leaf underside in humid mornings",
+      "Green ear: the earhead is transformed into leafy structures",
+      "Severely stunted, tillering plants with poor or no grain"
+    ],
+    "favourable": [
+      "High humidity with cool nights and warm days",
+      "Rainy periods during the seedling stage",
+      "Continuous bajra cropping"
+    ],
+    "spread": "Soil-borne oospores and airborne sporangia. Infected seed also carries the fungus.",
+    "management": {
+      "cultural": [
+        "Plant resistant hybrids — essential in endemic areas.",
+        "Rogue out green ear plants and destroy them.",
+        "Rotate with a non-host crop for at least one season."
+      ],
+      "organic": [
+        "Trichoderma seed treatment.",
+        "Rogueing infected plants early is the main organic route."
+      ],
+      "chemical": [
+        "Metalaxyl seed treatment at 2 g/kg seed.",
+        "Metalaxyl + mancozeb spray if rain continues in the seedling stage."
+      ]
+    },
+    "prevention": [
+      "Always treat seed with metalaxyl in downy mildew prone areas.",
+      "Remove volunteer and green-ear plants to cut soil inoculum."
+    ],
+    "visual_signatures": ["uniform_chlorosis", "white_powder", "silvery_streaks"]
+  },
+  {
+    "id": "cotton-fusarium-wilt",
+    "name": "Cotton Fusarium Wilt",
+    "crops": ["Cotton"],
+    "crop_ids": ["cotton"],
+    "pathogen_type": "Fungal",
+    "pathogen": "Fusarium oxysporum f. sp. vasinfectum",
+    "severity": "high",
+    "overview": "A soil-borne vascular wilt that causes sudden wilting and death. Once established in a field, it persists for many years.",
+    "image_cues": "Photograph a wilting plant and a cut stem. Look for brown discolouration of the internal woody ring.",
+    "symptoms": [
+      "Sudden wilting of the plant, often on one side first",
+      "Yellowing and drying of leaves from the lower part upwards",
+      "Brown discolouration in the internal stem tissue when cut",
+      "Root and collar rot with a dry, dark lesion"
+    ],
+    "favourable": [
+      "Soil temperature 25–30 °C with moderate soil moisture",
+      "Nematode infestation that opens entry points",
+      "Continuous cotton cropping and acidic soil"
+    ],
+    "spread": "Survives in soil and seed for many years. Spreads by movement of soil, water and farm machinery.",
+    "management": {
+      "cultural": [
+        "Use wilt-resistant varieties or rootstocks.",
+        "Rotate with a non-host crop such as a cereal for 2–3 years.",
+        "Improve drainage and raise soil pH with lime if acidic.",
+        "Remove and destroy affected plants with their roots."
+      ],
+      "organic": [
+        "Trichoderma viride seed and soil application is a proven control.",
+        "Neem cake or castor cake soil application reduces the pathogen.",
+        "Solarise the soil with plastic sheets before planting."
+      ],
+      "chemical": [
+        "Seed treatment with carbendazim or thiram.",
+        "Drench the collar region with carbendazim 1 g/L at the first wilt symptoms.",
+        "Fungicide drenching gives limited results on established infections."
+      ]
+    },
+    "prevention": [
+      "Include a cereal rotation to reduce soil inoculum.",
+      "Use resistant varieties and certified seed."
+    ],
+    "visual_signatures": ["patchy_wilting", "uniform_chlorosis", "dark_necrotic_spots"]
+  },
+  {
+    "id": "cotton-leaf-curl-virus",
+    "name": "Cotton Leaf Curl Virus (CLCuD)",
+    "crops": ["Cotton"],
+    "crop_ids": ["cotton"],
+    "pathogen_type": "Viral",
+    "pathogen": "Cotton leaf curl virus (Begomovirus), transmitted by whitefly",
+    "severity": "high",
+    "overview": "A whitefly-transmitted virus that stunts plants, curls leaves and drastically reduces boll formation. There is no chemical cure.",
+    "image_cues": "Photograph the upper leaves showing upward curling, vein thickening, and cup-shaped leaf-like enations on the underside.",
+    "symptoms": [
+      "Upward or downward curling of leaves with thickened veins",
+      "Small leaf-like outgrowths (enations) on the underside of leaves",
+      "Severely stunted plants with reduced boll formation",
+      "Dark green, leathery leaves and poor flowering"
+    ],
+    "favourable": [
+      "High whitefly populations in warm dry weather",
+      "Continuous cotton cropping in the same area",
+      "Presence of alternate weed hosts near the field"
+    ],
+    "spread": "Spread only by whitefly. Virus reservoirs include other cotton and weed hosts.",
+    "management": {
+      "cultural": [
+        "Grow CLCuD-resistant varieties.",
+        "Remove and destroy infected plants early.",
+        "Control weeds that host whitefly around the field.",
+        "Avoid late planting which coincides with peak whitefly."
+      ],
+      "organic": [
+        "Yellow sticky traps to monitor and reduce whitefly.",
+        "Neem oil spray reduces whitefly numbers.",
+        "Conservation of natural predators such as ladybird beetles."
+      ],
+      "chemical": [
+        "Control the whitefly vector with imidacloprid 0.3 ml/L or diafenthiuron.",
+        "Spray dinotefuran or flonicamid in rotation to avoid resistance.",
+        "There is no cure for the virus itself — vector control is the only strategy."
+      ]
+    },
+    "prevention": [
+      "Use resistant varieties and manage whitefly from the seedling stage.",
+      "Rogue out infected plants as soon as symptoms appear."
+    ],
+    "visual_signatures": ["leaf_curl", "mosaic_mottle", "dark_necrotic_spots"]
+  },
+  {
+    "id": "cotton-bacterial-blight",
+    "name": "Cotton Bacterial Blight",
+    "crops": ["Cotton"],
+    "crop_ids": ["cotton"],
+    "pathogen_type": "Bacterial",
+    "pathogen": "Xanthomonas citri pv. malvacearum",
+    "severity": "medium",
+    "overview": "Angular water-soaked leaf spots that turn brown, plus boll rot. It is favoured by warm, wet weather and spreads through seed and rain splash.",
+    "image_cues": "Photograph the leaf. Look for angular, vein-limited water-soaked spots that turn brown with a red-brown border.",
+    "symptoms": [
+      "Angular water-soaked leaf spots limited by veins",
+      "Spots darken to brown with a reddish margin",
+      "Boll lesions that become round, dark and sunken",
+      "Black arm: a dark elongate lesion on the stem"
+    ],
+    "favourable": [
+      "Warm, wet weather with rain splash",
+      "Infected seed",
+      "High humidity for prolonged periods"
+    ],
+    "spread": "Seed-borne and spread by rain splash, wind and irrigation water.",
+    "management": {
+      "cultural": [
+        "Use acid-delinted and certified seed.",
+        "Rotate with a non-host crop.",
+        "Avoid excessive irrigation and working in wet fields."
+      ],
+      "organic": [
+        "Bordeaux mixture 1% spray is a classic effective control.",
+        "Copper-based preparations reduce spread."
+      ],
+      "chemical": [
+        "Seed treatment with streptocycline and carbendazim.",
+        "Streptocycline 0.15 g/L + copper oxychloride 2.5 g/L spray at symptom onset."
+      ]
+    },
+    "prevention": [
+      "Buy acid-delinted certified seed and treat it before sowing.",
+      "Avoid overhead irrigation during humid spells."
+    ],
+    "visual_signatures": ["dark_necrotic_spots", "yellow_halo_spots", "patchy_wilting"]
+  },
+  {
+    "id": "sugarcane-red-rot",
+    "name": "Sugarcane Red Rot",
+    "crops": ["Sugarcane"],
+    "crop_ids": ["sugarcane"],
+    "pathogen_type": "Fungal",
+    "pathogen": "Colletotrichum falcatum",
+    "severity": "high",
+    "overview": "The most feared disease of sugarcane. It causes internal reddening with white cross bands and a sour alcoholic smell, and can destroy a crop within a season.",
+    "image_cues": "Photograph a split cane. Look for reddish discolouration of the internal tissue crossed by white transverse bands.",
+    "symptoms": [
+      "Third and fourth leaves turn yellow and dry from the margins",
+      "Split cane shows red internal discolouration with white cross bands",
+      "Sour, alcoholic smell from the affected cane",
+      "Stalk shrinks, becomes light and hollow, and the plant dries up"
+    ],
+    "favourable": [
+      "High humidity and temperature 25–30 °C with rain",
+      "Waterlogged soils",
+      "Susceptible varieties grown continuously"
+    ],
+    "spread": "Spread mainly by infected setts, and by soil, water and wind during the monsoon.",
+    "management": {
+      "cultural": [
+        "Use disease-free setts from a certified nursery.",
+        "Follow a 3-tier seed nursery programme.",
+        "Rogue out affected clumps with the surrounding soil and burn them.",
+        "Avoid ratooning a diseased crop."
+      ],
+      "organic": [
+        "Trichoderma application in the furrow.",
+        "Hot water treatment of setts at 50 °C for 2 hours.",
+        "Avoid waterlogging through proper drainage."
+      ],
+      "chemical": [
+        "Sett treatment in carbendazim 1 g/L for 15 minutes before planting.",
+        "Drench affected pockets with carbendazim and cover with fresh soil.",
+        "Fungicide treatment of seed cane is standard practice."
+      ]
+    },
+    "prevention": [
+      "Never plant setts from a diseased field.",
+      "Use resistant varieties and rotate with rice or a pulse."
+    ],
+    "visual_signatures": ["uniform_chlorosis", "patchy_wilting", "dark_necrotic_spots"]
+  },
+  {
+    "id": "sugarcane-smut",
+    "name": "Sugarcane Smut (Whip Smut)",
+    "crops": ["Sugarcane"],
+    "crop_ids": ["sugarcane"],
+    "pathogen_type": "Fungal",
+    "pathogen": "Sporisorium scitamineum",
+    "severity": "medium",
+    "overview": "A black whip-like structure emerges from the growing point of the cane. Affected stalks become thin and grassy and produce no recoverable sugar.",
+    "image_cues": "Unmistakable: a long silvery-grey to black whip emerging from the top of the cane.",
+    "symptoms": [
+      "Long whip-like black structure emerging from the growing point",
+      "Thin, grass-like tillers with narrow leaves",
+      "Affected stalks are usually thinner and taller than healthy ones"
+    ],
+    "favourable": [
+      "Hot dry weather followed by rain",
+      "Continuous cropping with susceptible varieties",
+      "Drought stress"
+    ],
+    "spread": "Airborne spores and infected setts. Spores survive in soil for months.",
+    "management": {
+      "cultural": [
+        "Use resistant varieties and disease-free setts.",
+        "Rogue out whips before they burst and release spores.",
+        "Avoid planting ratoon from an affected crop."
+      ],
+      "organic": [
+        "Hot water treatment of setts at 52 °C for 30 minutes.",
+        "Trichoderma applications in the furrow."
+      ],
+      "chemical": [
+        "Sett treatment with carbendazim 1 g/L for 15 minutes.",
+        "No effective field cure once the whip has formed."
+      ]
+    },
+    "prevention": [
+      "Hot water or fungicide sett treatment is essential before planting.",
+      "Remove whips early and burn them."
+    ],
+    "visual_signatures": ["black_spots", "uniform_chlorosis"]
+  },
+  {
+    "id": "sugarcane-grassy-shoot",
+    "name": "Sugarcane Grassy Shoot",
+    "crops": ["Sugarcane"],
+    "crop_ids": ["sugarcane"],
+    "pathogen_type": "Phytoplasma",
+    "pathogen": "Sugarcane grassy shoot phytoplasma",
+    "severity": "medium",
+    "overview": "A phytoplasma disease that turns canes into a cluster of thin, pale grassy tillers with no economic yield.",
+    "image_cues": "Photograph a clump showing many thin, pale yellowish tillers crowding from the base like grass.",
+    "symptoms": [
+      "Numerous thin, pale yellow to white tillers emerging from the base",
+      "Leaves become small, narrow and pale",
+      "Stunted growth with no millable cane",
+      "Prolific profuse tillering giving a grass-like tuft"
+    ],
+    "favourable": [
+      "Use of infected setts",
+      "Presence of the leafhopper vector",
+      "Continuous cropping"
+    ],
+    "spread": "Mainly through infected setts; also by leafhopper vectors.",
+    "management": {
+      "cultural": [
+        "Uproot and destroy affected clumps completely.",
+        "Use disease-free seed from a certified nursery.",
+        "Avoid ratooning affected fields."
+      ],
+      "organic": [
+        "Hot water treatment of setts at 50 °C for 2 hours.",
+        "Remove alternate weed hosts around the field."
+      ],
+      "chemical": [
+        "Control the leafhopper vector with a recommended insecticide.",
+        "No direct chemical cure is available."
+      ]
+    },
+    "prevention": [
+      "Strictly use heat-treated, disease-free planting material.",
+      "Rogue out affected clumps early."
+    ],
+    "visual_signatures": ["uniform_chlorosis", "leaf_curl", "silvery_streaks"]
+  },
+  {
+    "id": "groundnut-tikka-leaf-spot",
+    "name": "Groundnut Tikka (Leaf Spot)",
+    "crops": ["Groundnut (Peanut)"],
+    "crop_ids": ["groundnut"],
+    "pathogen_type": "Fungal",
+    "pathogen": "Cercospora arachidicola (early) / Phaeoisariopsis personata (late)",
+    "severity": "high",
+    "overview": "The most important groundnut disease. Heavy leaf spotting causes extensive defoliation and can halve the yield when it starts before flowering.",
+    "image_cues": "Photograph the leaf. Early spots are dark brown with a yellow halo; late spots are black on the underside.",
+    "symptoms": [
+      "Early leaf spot: dark brown circular spots with a yellow halo",
+      "Late leaf spot: blackish brown spots, mostly noticed on the leaf underside",
+      "Heavy spotting leads to premature leaf drop and a bare crop",
+      "Spots also appear on the petiole and stem"
+    ],
+    "favourable": [
+      "High humidity and temperature 25–30 °C with frequent rain or dew",
+      "Continuous groundnut cropping",
+      "Dense canopy that stays wet"
+    ],
+    "spread": "Airborne spores from crop residue are splashed and wind-blown to new leaves.",
+    "management": {
+      "cultural": [
+        "Rotate with a cereal for 2–3 years.",
+        "Destroy crop residue after harvest.",
+        "Grow resistant or tolerant varieties.",
+        "Reduce plant density slightly in humid regions."
+      ],
+      "organic": [
+        "Neem cake soil application reduces soil-borne inoculum.",
+        "Pseudomonas fluorescens spray reduces disease severity.",
+        "Bordeaux mixture 1% is a low-cost protective spray."
+      ],
+      "chemical": [
+        "Chlorothalonil 2 g/L or mancozeb 2 g/L at the first spots.",
+        "Hexaconazole 2 ml/L or propiconazole 1 ml/L for a curative effect.",
+        "Spray every 12–14 days, up to 3–4 sprays in a wet season."
+      ]
+    },
+    "prevention": [
+      "Treat seed with Trichoderma or a fungicide before sowing.",
+      "Rotate crops and remove volunteer groundnut plants."
+    ],
+    "visual_signatures": ["dark_necrotic_spots", "yellow_halo_spots", "uniform_chlorosis"]
+  },
+  {
+    "id": "groundnut-stem-rot",
+    "name": "Groundnut Stem Rot",
+    "crops": ["Groundnut (Peanut)"],
+    "crop_ids": ["groundnut"],
+    "pathogen_type": "Fungal",
+    "pathogen": "Sclerotium rolfsii",
+    "severity": "high",
+    "overview": "A soil-borne disease that rots the stem base, causing sudden wilting and death. White cottony fungal growth and mustard-seed-like sclerotia are visible at the collar.",
+    "image_cues": "Photograph the base of a wilted plant at soil level. Look for white cottony mycelium and small round tan sclerotia.",
+    "symptoms": [
+      "Sudden wilting of the plant with leaves still green, later turning brown",
+      "White cottony mycelium at the stem base",
+      "Small round tan to brown sclerotia (like mustard seeds) on the stem and soil",
+      "Dry rotting of the collar region and pods"
+    ],
+    "favourable": [
+      "High soil moisture with temperature 25–35 °C",
+      "Continuous groundnut cropping and heavy residue",
+      "Acidic sandy soils"
+    ],
+    "spread": "Sclerotia survive in soil for years. Spread by soil movement, water and infected residue.",
+    "management": {
+      "cultural": [
+        "Deep summer ploughing to bury sclerotia.",
+        "Rotate with a cereal crop.",
+        "Avoid dense planting and excessive irrigation.",
+        "Remove affected plants with the surrounding soil."
+      ],
+      "organic": [
+        "Trichoderma viride seed treatment and soil application at 5 kg/ha with FYM.",
+        "Neem cake application reduces the pathogen population.",
+        "Soil solarisation before planting."
+      ],
+      "chemical": [
+        "Seed treatment with carbendazim + thiram.",
+        "Drench the collar with hexaconazole 2 ml/L or carbendazim 1 g/L.",
+        "Apply at the first sign of wilting — later drenches rarely help."
+      ]
+    },
+    "prevention": [
+      "Trichoderma plus neem cake at sowing gives strong, low-cost protection.",
+      "Follow a cereal rotation to reduce soil inoculum."
+    ],
+    "visual_signatures": ["patchy_wilting", "white_powder", "dark_necrotic_spots"]
+  },
+  {
+    "id": "bud-necrosis-virus",
+    "name": "Groundnut Bud Necrosis Virus",
+    "crops": ["Groundnut (Peanut)"],
+    "crop_ids": ["groundnut"],
+    "pathogen_type": "Viral",
+    "pathogen": "Groundnut bud necrosis virus (Tospovirus), transmitted by thrips",
+    "severity": "high",
+    "overview": "A thrips-transmitted virus that kills young plants and causes severe stunting, necrosis of the growing point and no pod formation.",
+    "image_cues": "Photograph the whole plant top. Look for necrosis of the terminal bud, ring spots on leaves and stunted bushy growth.",
+    "symptoms": [
+      "Necrosis of the terminal bud and growing point",
+      "Chlorotic ring spots and mottling on leaves",
+      "Stunted, bushy plants with small leaves",
+      "Death of the plant in early infection; few or no pods in late infection"
+    ],
+    "favourable": [
+      "High thrips populations in warm dry weather followed by rain",
+      "Presence of weed hosts around the field",
+      "Continuous groundnut cropping"
+    ],
+    "spread": "Spread only by thrips. Virus reservoirs include weeds and other crop hosts.",
+    "management": {
+      "cultural": [
+        "Grow tolerant varieties.",
+        "Rogue out infected plants early.",
+        "Remove weeds that host thrips around the field.",
+        "Sow at the recommended time with a uniform plant stand."
+      ],
+      "organic": [
+        "Blue sticky traps to monitor and trap thrips.",
+        "Neem oil spray reduces thrips activity.",
+        "Encourage natural predators such as predatory mites."
+      ],
+      "chemical": [
+        "Imidacloprid 0.3 ml/L or fipronil seed treatment for thrips.",
+        "Spray acephate or spinosad at the early seedling stage.",
+        "Vector control in the first 4–6 weeks is the most critical."
+      ]
+    },
+    "prevention": [
+      "Treat seed with imidacloprid to control thrips in the vulnerable seedling stage.",
+      "Remove infected plants and weed hosts promptly."
+    ],
+    "visual_signatures": ["mosaic_mottle", "dark_necrotic_spots", "uniform_chlorosis", "leaf_curl"]
+  },
+  {
+    "id": "soybean-yellow-mosaic-virus",
+    "name": "Soybean Yellow Mosaic Virus",
+    "crops": ["Soybean"],
+    "crop_ids": ["soybean"],
+    "pathogen_type": "Viral",
+    "pathogen": "Mungbean yellow mosaic virus (Begomovirus), transmitted by whitefly",
+    "severity": "high",
+    "overview": "A whitefly-transmitted virus that produces bright yellow mosaic patches on leaves, stunts plants and can cause total pod loss.",
+    "image_cues": "Photograph a leaf with clear bright yellow and green mosaic patches. Symptoms are most obvious on the newer leaves.",
+    "symptoms": [
+      "Bright yellow and green mosaic patches on leaves",
+      "Yellowing spreads until the whole leaf is yellow",
+      "Stunted plants with very few pods",
+      "Leaves may become small and puckered"
+    ],
+    "favourable": [
+      "High whitefly populations in warm dry weather",
+      "Continuous soybean cropping",
+      "Weed hosts near the field"
+    ],
+    "spread": "Transmitted by whitefly; the virus is not spread by seed or contact.",
+    "management": {
+      "cultural": [
+        "Grow resistant varieties where available.",
+        "Remove infected plants early.",
+        "Control weeds that host whitefly.",
+        "Avoid late planting that coincides with peak whitefly."
+      ],
+      "organic": [
+        "Yellow sticky traps to reduce whitefly numbers.",
+        "Neem oil or neem seed kernel extract spray.",
+        "Conserve predators such as ladybirds and spiders."
+      ],
+      "chemical": [
+        "Seed treatment with imidacloprid or thiamethoxam.",
+        "Spray triazophos 1.5 ml/L or imidacloprid 0.3 ml/L for the vector.",
+        "There is no cure for the virus — manage whitefly."
+      ]
+    },
+    "prevention": [
+      "Sow disease-tolerant varieties and treat seed against whitefly.",
+      "Rogue out infected plants within the first month."
+    ],
+    "visual_signatures": ["mosaic_mottle", "uniform_chlorosis", "leaf_curl"]
+  },
+  {
+    "id": "soybean-rust",
+    "name": "Soybean Rust",
+    "crops": ["Soybean"],
+    "crop_ids": ["soybean"],
+    "pathogen_type": "Fungal",
+    "pathogen": "Phakopsora pachyrhizi",
+    "severity": "high",
+    "overview": "A fast-moving rust that can defoliate a soybean crop within 2–3 weeks, causing 30–80% yield loss if it appears before pod filling.",
+    "image_cues": "Photograph the underside of a leaf. Look for tiny raised reddish-brown pustules scattered over the surface.",
+    "symptoms": [
+      "Tiny reddish-brown pustules mainly on the leaf underside",
+      "Angular yellow to brown patches on the upper surface",
+      "Rapid yellowing and defoliation starting from the lower canopy",
+      "Pods remain small and poorly filled"
+    ],
+    "favourable": [
+      "Extended leaf wetness with temperature 15–28 °C",
+      "High humidity and frequent rain or dew",
+      "Dense canopy with poor air movement"
+    ],
+    "spread": "Airborne spores travel long distances and spread rapidly within a field.",
+    "management": {
+      "cultural": [
+        "Grow resistant or tolerant varieties.",
+        "Sow early to escape the late-season epidemic.",
+        "Reduce plant density for better air movement."
+      ],
+      "organic": [
+        "Sulphur sprays have limited effect.",
+        "Neem formulations reduce spore germination modestly."
+      ],
+      "chemical": [
+        "Hexaconazole 2 ml/L or propiconazole 1 ml/L at the first pustules.",
+        "Azoxystrobin plus a triazole for a strong, long-lasting effect.",
+        "Spray with a high volume and good under-leaf coverage."
+      ]
+    },
+    "prevention": [
+      "Scout from the flowering stage and spray at the very first pustules.",
+      "Use tolerant varieties and destroy volunteer soybean plants."
+    ],
+    "visual_signatures": ["orange_pustules", "uniform_chlorosis", "dark_necrotic_spots"]
+  },
+  {
+    "id": "soybean-rhizoctonia-blight",
+    "name": "Soybean Aerial Blight (Rhizoctonia)",
+    "crops": ["Soybean"],
+    "crop_ids": ["soybean"],
+    "pathogen_type": "Fungal",
+    "pathogen": "Rhizoctonia solani",
+    "severity": "medium",
+    "overview": "A soil-borne fungus that attacks the stem base and lower canopy in wet conditions, causing blight and lodging.",
+    "image_cues": "Photograph the stem base and lower leaves. Look for brown water-soaked lesions with a distinct reddish-brown border.",
+    "symptoms": [
+      "Water-soaked to brown lesions on the stem base and lower leaves",
+      "Lesions with a reddish-brown margin",
+      "Blighting and collapse of the lower canopy",
+      "Webby mycelium visible in prolonged wet weather"
+    ],
+    "favourable": [
+      "Prolonged wet soil and high humidity",
+      "Temperature 25–32 °C",
+      "Continuous soybean cropping and heavy residue"
+    ],
+    "spread": "Survives in soil and residue; spreads through soil contact and splashing water.",
+    "management": {
+      "cultural": [
+        "Rotate with a cereal crop.",
+        "Improve drainage in low-lying spots.",
+        "Avoid very dense plant populations."
+      ],
+      "organic": [
+        "Trichoderma seed treatment and soil application.",
+        "Increase soil organic matter to boost antagonistic microbes."
+      ],
+      "chemical": [
+        "Seed treatment with carbendazim + thiram.",
+        "Hexaconazole 2 ml/L spray directed at the stem base."
+      ]
+    },
+    "prevention": [
+      "Treat seed with Trichoderma before sowing.",
+      "Rotate crops and manage residue."
+    ],
+    "visual_signatures": ["dark_necrotic_spots", "gray_center_brown_margin", "patchy_wilting"]
+  },
+  {
+    "id": "chickpea-fusarium-wilt",
+    "name": "Chickpea Fusarium Wilt",
+    "crops": ["Chickpea (Gram)", "Brinjal (Eggplant)"],
+    "crop_ids": ["chickpea", "brinjal"],
+    "pathogen_type": "Fungal",
+    "pathogen": "Fusarium oxysporum f. sp. ciceris",
+    "severity": "high",
+    "overview": "The most important chickpea disease, causing sudden wilting from the seedling stage to podding. Once soil is infested it remains so for years.",
+    "image_cues": "Photograph a wilted plant pulled from the soil. The roots are dark and the internal stem shows brown discolouration.",
+    "symptoms": [
+      "Sudden drooping and wilting of plants with leaves still green, then drying",
+      "Brown discolouration inside the stem when cut lengthwise",
+      "Dark brown to black rotting of the root and collar region",
+      "Patches of dead plants scattered across the field"
+    ],
+    "favourable": [
+      "Soil temperature 20–25 °C with moderate moisture",
+      "Continuous chickpea cropping",
+      "Sandy or light soils and low soil organic matter"
+    ],
+    "spread": "Soil-borne and seed-borne; survives as chlamydospores for many years. Spread by soil, water and farm implements.",
+    "management": {
+      "cultural": [
+        "Grow wilt-resistant varieties (the most reliable control).",
+        "Rotate with a cereal for at least 3 years.",
+        "Deep summer ploughing and soil solarisation.",
+        "Avoid excess irrigation and ensure good drainage."
+      ],
+      "organic": [
+        "Trichoderma viride/harzianum seed treatment and soil application with FYM.",
+        "Neem cake soil application reduces pathogen populations.",
+        "Use clean, healthy seed."
+      ],
+      "chemical": [
+        "Seed treatment with carbendazim + thiram at 2 g/kg seed.",
+        "Drench with carbendazim 1 g/L in patches of wilting.",
+        "Fungicide treatment of already wilted plants is ineffective."
+      ]
+    },
+    "prevention": [
+      "Use resistant varieties and treated seed in wilt-prone fields.",
+      "Rotate out of pulses for 2–3 years."
+    ],
+    "visual_signatures": ["patchy_wilting", "uniform_chlorosis", "dark_necrotic_spots"]
+  },
+  {
+    "id": "chickpea-blight",
+    "name": "Ascochyta Blight (Chickpea)",
+    "crops": ["Chickpea (Gram)"],
+    "crop_ids": ["chickpea"],
+    "pathogen_type": "Fungal",
+    "pathogen": "Ascochyta rabiei",
+    "severity": "high",
+    "overview": "A devastating cool-humid disease of chickpea that produces dark lesions on leaves, stems and pods, and can wipe out a crop in a wet winter.",
+    "image_cues": "Photograph affected leaves and stems. Look for circular brown-black spots with a pale centre and a dark margin, plus dark lesions on the stem.",
+    "symptoms": [
+      "Circular brown to black spots with a pale centre and dark border on leaves",
+      "Dark elongated lesions on stems and branches causing them to break",
+      "Pod lesions with circular dark spots and shrivelled seeds",
+      "Blighting and collapse of the whole plant in severe infections"
+    ],
+    "favourable": [
+      "Cool temperature 15–25 °C with high humidity and wet weather",
+      "Prolonged leaf wetness from rain or dew",
+      "Dense crop canopy"
+    ],
+    "spread": "Seed-borne, and spores are spread by rain splash and wind. Residue carries the fungus to the next season.",
+    "management": {
+      "cultural": [
+        "Use certified disease-free seed from a blight-free area.",
+        "Rotate with a cereal crop.",
+        "Bury or remove crop residue.",
+        "Avoid dense planting in high-risk areas."
+      ],
+      "organic": [
+        "Trichoderma seed treatment.",
+        "Bordeaux mixture 1% spray is a low-cost protective option."
+      ],
+      "chemical": [
+        "Seed treatment with carbendazim + thiram.",
+        "Chlorothalonil 2 g/L or mancozeb 2.5 g/L spray at first symptoms.",
+        "Repeat at 14-day intervals in wet weather."
+      ]
+    },
+    "prevention": [
+      "Never save seed from a blighted crop.",
+      "Spray protectively when cool, humid weather is forecast."
+    ],
+    "visual_signatures": ["dark_necrotic_spots", "gray_center_brown_margin", "yellow_halo_spots"]
+  },
+  {
+    "id": "chickpea-collar-rot",
+    "name": "Chickpea Collar Rot",
+    "crops": ["Chickpea (Gram)"],
+    "crop_ids": ["chickpea"],
+    "pathogen_type": "Fungal",
+    "pathogen": "Aspergillus niger / Sclerotium rolfsii",
+    "severity": "medium",
+    "overview": "A seedling and collar-region rot that kills young plants in patches, especially in warm moist soil with poor-quality seed.",
+    "image_cues": "Photograph the base of a young plant. Look for a dark dry decay at the collar and roots, sometimes with black powdery spore masses.",
+    "symptoms": [
+      "Dark, dry rotting at the collar and root region",
+      "Seedlings collapse and die in patches",
+      "Black powdery spore mass visible on the affected tissue",
+      "Yellowing of older leaves before death"
+    ],
+    "favourable": [
+      "Warm, moist soil with temperature 25–30 °C",
+      "High soil organic residue and poor-quality seed",
+      "Damage to seed during sowing"
+    ],
+    "spread": "Soil-borne and seed-borne. Spread by soil movement and infected seed.",
+    "management": {
+      "cultural": [
+        "Use good quality, undamaged seed.",
+        "Sow on ridges in soils with a history of collar rot.",
+        "Avoid heavy irrigation right after sowing."
+      ],
+      "organic": [
+        "Trichoderma seed treatment at 5 g/kg seed.",
+        "Neem cake soil application decreases the pathogen population."
+      ],
+      "chemical": [
+        "Seed treatment with carbendazim or thiram at 2 g/kg.",
+        "Drench affected patches with carbendazim 1 g/L."
+      ]
+    },
+    "prevention": [
+      "Treat seed with Trichoderma or a fungicide at sowing.",
+      "Use only well-graded, healthy seed."
+    ],
+    "visual_signatures": ["patchy_wilting", "black_spots", "dark_necrotic_spots"]
+  },
+  {
+    "id": "mustard-alternaria-blight",
+    "name": "Alternaria Blight (Mustard)",
+    "crops": ["Mustard / Rapeseed"],
+    "crop_ids": ["mustard"],
+    "pathogen_type": "Fungal",
+    "pathogen": "Alternaria brassicae / A. brassicicola",
+    "severity": "high",
+    "overview": "The most damaging disease of rapeseed-mustard in India. Concentric-ring leaf spots plus dark pod lesions reduce seed filling and oil content.",
+    "image_cues": "Photograph leaves and pods. Look for round brown spots with concentric rings and a yellow halo; pod lesions are dark and sunken.",
+    "symptoms": [
+      "Round to oval brown spots with concentric rings and a yellow halo",
+      "Lesions may merge, causing defoliation in severe cases",
+      "Dark sunken lesions on pods and stems",
+      "Shrivelled seed with reduced oil content"
+    ],
+    "favourable": [
+      "Temperature 18–25 °C with high humidity and frequent rain or dew",
+      "Dense crop canopy with prolonged leaf wetness",
+      "Continuous mustard cropping"
+    ],
+    "spread": "Seed-borne, crop-residue-borne, and spread by wind and rain splash.",
+    "management": {
+      "cultural": [
+        "Use certified treated seed of tolerant varieties.",
+        "Rotate with a non-host crop.",
+        "Produce seed in dry areas to reduce seed inoculum.",
+        "Avoid very dense sowing."
+      ],
+      "organic": [
+        "Trichoderma seed treatment.",
+        "Neem oil or garlic extract sprays give partial control.",
+        "Bordeaux mixture 1% applied protectively."
+      ],
+      "chemical": [
+        "Seed treatment with mancozeb (4 g/kg) or thiram.",
+        "Mancozeb 2.5 g/L or iprodione spray at 45 and 60 days.",
+        "Propiconazole 1 ml/L gives a stronger curative effect."
+      ]
+    },
+    "prevention": [
+      "Treat seed and follow a 2–3 year crop rotation.",
+      "Spray protectively if humid weather arrives at flowering."
+    ],
+    "visual_signatures": ["concentric_rings", "dark_necrotic_spots", "yellow_halo_spots"]
+  },
+  {
+    "id": "mustard-white-rust",
+    "name": "White Rust (Mustard)",
+    "crops": ["Mustard / Rapeseed"],
+    "crop_ids": ["mustard"],
+    "pathogen_type": "Fungal (Oomycete)",
+    "pathogen": "Albugo candida",
+    "severity": "medium",
+    "overview": "Produces white blister-like pustules on the underside of leaves and deforms the inflorescence into a 'stag head' with no seed.",
+    "image_cues": "Photograph the leaf underside. Look for raised white shiny blisters; also photograph the distorted inflorescence if present.",
+    "symptoms": [
+      "White shiny blister-like pustules on the lower leaf surface",
+      "Yellow patches on the corresponding upper surface",
+      "Deformed inflorescence forming a swollen stag head",
+      "Reduced flowering and no seed set in stag-head branches"
+    ],
+    "favourable": [
+      "Cool, humid weather 10–20 °C with dew",
+      "Wet condition at the seedling and flowering stages",
+      "Continuous mustard cropping"
+    ],
+    "spread": "Airborne spores and infected residue. Also carried on seed.",
+    "management": {
+      "cultural": [
+        "Use resistant varieties.",
+        "Remove and destroy stag-head branches and infected leaves.",
+        "Rotate with a non-host crop."
+      ],
+      "organic": [
+        "Bordeaux mixture 1% protective spray.",
+        "Trichoderma soil and seed application."
+      ],
+      "chemical": [
+        "Metalaxyl + mancozeb at 2 g/L spray.",
+        "Seed treatment with metalaxyl at 6 g/kg seed."
+      ]
+    },
+    "prevention": [
+      "Sow resistant varieties and treat seed before sowing.",
+      "Remove stag head branches before they release spores."
+    ],
+    "visual_signatures": ["white_powder", "uniform_chlorosis", "yellow_halo_spots"]
+  },
+  {
+    "id": "mustard-sclerotinia-rot",
+    "name": "Sclerotinia Stem Rot (Mustard)",
+    "crops": ["Mustard / Rapeseed"],
+    "crop_ids": ["mustard"],
+    "pathogen_type": "Fungal",
+    "pathogen": "Sclerotinia sclerotiorum",
+    "severity": "medium",
+    "overview": "A wet-weather disease that rots stems at or near the soil line. White cottony mould with hard black sclerotia is the signature.",
+    "image_cues": "Photograph the lower stem. Look for bleached stem lesions with white cottony mycelium and hard black irregular sclerotia.",
+    "symptoms": [
+      "Water-soaked lesions at the stem base that become bleached and dry",
+      "White cottony mycelium on the stem surface",
+      "Hard black irregular sclerotia on and inside the stem",
+      "Sudden wilting and collapse of the plant"
+    ],
+    "favourable": [
+      "Cool, wet weather 15–20 °C with high humidity",
+      "Dense canopy and poor air movement",
+      "Soil kept wet for long periods"
+    ],
+    "spread": "Sclerotia survive in the soil for years. Spread by soil, water, wind and infected seed.",
+    "management": {
+      "cultural": [
+        "Deep summer ploughing to bury sclerotia.",
+        "Rotate with a cereal crop for 3–4 years.",
+        "Reduce density and avoid excess irrigation.",
+        "Remove and destroy affected plants."
+      ],
+      "organic": [
+        "Trichoderma soil application.",
+        "Soil solarisation during summer to reduce sclerotia."
+      ],
+      "chemical": [
+        "Carbendazim 2 g/L spray on the stem base at the first symptoms.",
+        "Iprodione spray is also effective."
+      ]
+    },
+    "prevention": [
+      "Rotate mustard with cereals and avoid waterlogging.",
+      "Bury sclerotia with deep ploughing."
+    ],
+    "visual_signatures": ["white_powder", "dark_necrotic_spots", "patchy_wilting"]
+  },
+  {
+    "id": "tomato-early-blight",
+    "name": "Tomato Early Blight",
+    "crops": ["Tomato", "Potato"],
+    "crop_ids": ["tomato", "potato"],
+    "pathogen_type": "Fungal",
+    "pathogen": "Alternaria solani",
+    "severity": "medium",
+    "overview": "A common foliar disease of tomato and potato that starts on older lower leaves and works upward. It reduces fruit size and exposes fruit to sunscald.",
+    "image_cues": "Photograph an older lower leaf. Look for brown spots with concentric rings forming a target-board pattern, surrounded by a yellow halo.",
+    "symptoms": [
+      "Dark brown spots with concentric rings (target-board pattern)",
+      "A yellow halo around each spot",
+      "Disease starts on older lower leaves and moves upward",
+      "Stem lesions and fruit rot near the calyx end"
+    ],
+    "favourable": [
+      "Warm temperature 24–29 °C with alternating wet and dry periods",
+      "High humidity and frequent dew",
+      "Nutrient-stressed or weak plants"
+    ],
+    "spread": "Soil-borne and residue-borne; spores spread by wind, rain splash and tools.",
+    "management": {
+      "cultural": [
+        "Stake plants and remove the oldest affected leaves to slow upward movement.",
+        "Mulch to prevent soil splash onto lower leaves.",
+        "Rotate away from tomato, potato and brinjal for 2–3 years.",
+        "Keep plants well nourished — stress increases susceptibility."
+      ],
+      "organic": [
+        "Trichoderma and Bacillus-based bio-fungicides.",
+        "Copper-based sprays (Bordeaux mixture 1%) provide protection.",
+        "Neem oil reduces spread when used early."
+      ],
+      "chemical": [
+        "Mancozeb 2.5 g/L or chlorothalonil 2 g/L every 10–12 days.",
+        "Azoxystrobin or difenoconazole 1 ml/L for a curative effect.",
+        "Add a sticker and ensure good coverage of the lower leaf surface."
+      ]
+    },
+    "prevention": [
+      "Mulch and stake the crop; remove lower infected leaves.",
+      "Rotate away from solanaceous crops."
+    ],
+    "visual_signatures": ["concentric_rings", "yellow_halo_spots", "dark_necrotic_spots"]
+  },
+  {
+    "id": "tomato-late-blight",
+    "name": "Late Blight",
+    "crops": ["Tomato", "Potato"],
+    "crop_ids": ["tomato", "potato"],
+    "pathogen_type": "Fungal (Oomycete)",
+    "pathogen": "Phytophthora infestans",
+    "severity": "high",
+    "overview": "The most explosive disease of tomato and potato. It can destroy an entire field in a week during cool, wet weather. It also causes the historic Irish potato famine.",
+    "image_cues": "Photograph the leaf edge and stem. Look for large irregular water-soaked grey-green patches with a white fuzzy mould on the underside in humid conditions.",
+    "symptoms": [
+      "Irregular water-soaked grey-green patches on leaves, often at the tip or edge",
+      "White fuzzy mould (sporulation) on the underside of lesions in humid weather",
+      "Dark brown to black lesions on stems and petioles",
+      "Firm brown rot of tomato fruit and potato tubers at the field surface"
+    ],
+    "favourable": [
+      "Cool temperature 15–22 °C with high humidity and rain or fog",
+      "Prolonged leaf wetness over 10 hours",
+      "Dense canopy with poor ventilation"
+    ],
+    "spread": "Airborne spores travel long distances; also spread by infected tubers and splashing water.",
+    "management": {
+      "cultural": [
+        "Remove and destroy infected plants immediately; do not compost them.",
+        "Increase spacing and improve air movement.",
+        "Avoid overhead irrigation in the evening.",
+        "Harvest potato tubers only after the haulm is fully dead to avoid tuber infection."
+      ],
+      "organic": [
+        "Copper hydroxide or Bordeaux mixture 1% as a preventive spray.",
+        "Bio-fungicides give limited control in high pressure.",
+        "Grow resistant varieties."
+      ],
+      "chemical": [
+        "Preventive metalaxyl + mancozeb 2.5 g/L during cool wet spells.",
+        "Cymoxanil + mancozeb or dimethomorph 1 ml/L for an active outbreak.",
+        "Spray every 7 days in continuous wet weather and rotate chemistry."
+      ]
+    },
+    "prevention": [
+      "Spray protectively before a cool, wet spell rather than after symptoms appear.",
+      "Use certified seed tubers free of the pathogen."
+    ],
+    "visual_signatures": ["dark_water_soaked", "patchy_wilting", "white_powder", "gray_fuzz"]
+  },
+  {
+    "id": "tomato-leaf-curl-virus",
+    "name": "Tomato Leaf Curl Virus (TYLCV)",
+    "crops": ["Tomato"],
+    "crop_ids": ["tomato"],
+    "pathogen_type": "Viral",
+    "pathogen": "Tomato yellow leaf curl virus (Begomovirus), transmitted by whitefly",
+    "severity": "high",
+    "overview": "A whitefly-vectored virus that curls leaves upward, stunts plants and stops fruit production. It is the most damaging virus of tomato in tropical regions.",
+    "image_cues": "Photograph the whole plant top. Look for small leaves with upward curling, yellow margins and bushy stunted growth.",
+    "symptoms": [
+      "Upward curling and cupping of leaves",
+      "Yellowing of leaf margins and interveinal areas",
+      "Strongly stunted plants with a bushy appearance",
+      "Very few flowers and almost no marketable fruit"
+    ],
+    "favourable": [
+      "High whitefly populations in warm dry weather",
+      "Continuous tomato cropping",
+      "Weed hosts near the field"
+    ],
+    "spread": "Transmitted only by whitefly; not seed or contact transmitted.",
+    "management": {
+      "cultural": [
+        "Grow resistant or tolerant varieties.",
+        "Remove infected plants early — do not leave them in the field.",
+        "Use reflective silver mulch to repel whitefly.",
+        "Control weeds and alternate hosts around the field."
+      ],
+      "organic": [
+        "Yellow sticky traps and reflective mulch.",
+        "Neem oil spray for whitefly suppression.",
+        "Encourage parasitoids such as Encarsia."
+      ],
+      "chemical": [
+        "Seed treatment and seedling drench with imidacloprid.",
+        "Spray diafenthiuron or spiromesifen for whitefly, rotating modes of action.",
+        "Managing whitefly from the nursery stage is the key."
+      ]
+    },
+    "prevention": [
+      "Raise seedlings under insect-proof nets.",
+      "Rogue out infected plants as soon as symptoms appear."
+    ],
+    "visual_signatures": ["leaf_curl", "uniform_chlorosis", "mosaic_mottle"]
+  },
+  {
+    "id": "tomato-bacterial-wilt",
+    "name": "Bacterial Wilt",
+    "crops": ["Tomato", "Brinjal (Eggplant)"],
+    "crop_ids": ["tomato", "brinjal"],
+    "pathogen_type": "Bacterial",
+    "pathogen": "Ralstonia solanacearum",
+    "severity": "high",
+    "overview": "A soil-borne bacterial disease that causes sudden wilting of the whole plant while leaves stay green. Once a field is infested it is very hard to grow solanaceous crops there.",
+    "image_cues": "Photograph a wilted plant. Cut the stem and place it in clear water — a milky white bacterial ooze streams out within minutes.",
+    "symptoms": [
+      "Sudden wilting of the whole plant with green leaves",
+      "Brown discolouration of the vascular tissue in the stem",
+      "Milky white bacterial ooze streaming from a cut stem in water",
+      "Rapid collapse and death of the plant"
+    ],
+    "favourable": [
+      "Soil temperature 28–35 °C with high soil moisture",
+      "Waterlogged or poorly drained soil",
+      "Continuous cropping of tomato, brinjal or chilli"
+    ],
+    "spread": "Survives in soil, water and plant debris. Spread by irrigation water, farm tools and infected transplants.",
+    "management": {
+      "cultural": [
+        "Rotate with a non-host crop such as maize or a cereal for 3–4 years.",
+        "Raise and maintain soil pH around 7.0 with lime.",
+        "Improve drainage and avoid waterlogging.",
+        "Remove and destroy wilted plants with the surrounding soil."
+      ],
+      "organic": [
+        "Graft tomato on a bacterial-wilt resistant rootstock — the most reliable control.",
+        "Trichoderma and Pseudomonas soil application.",
+        "Soil solarisation before planting."
+      ],
+      "chemical": [
+        "Soil drench with bleaching powder or copper oxychloride in affected patches.",
+        "Streptocycline drench has limited effect once the plant shows symptoms.",
+        "Disinfect tools between plants."
+      ]
+    },
+    "prevention": [
+      "Use grafted plants in infested fields — this is the single best strategy.",
+      "Rotate away from solanaceous crops and disinfect tools."
+    ],
+    "visual_signatures": ["patchy_wilting", "uniform_chlorosis", "dark_necrotic_spots"]
+  },
+  {
+    "id": "potato-common-scab",
+    "name": "Potato Common Scab",
+    "crops": ["Potato"],
+    "crop_ids": ["potato"],
+    "pathogen_type": "Bacterial",
+    "pathogen": "Streptomyces scabies",
+    "severity": "medium",
+    "overview": "A soil-borne bacterium that produces rough, corky lesions on the tuber surface. It does not reduce yield much but badly lowers market quality.",
+    "image_cues": "Photograph the tuber surface. Look for raised or pitted corky brown lesions in a rough patch.",
+    "symptoms": [
+      "Rough, raised or pitted corky brown lesions on the tuber skin",
+      "Lesions do not extend deep into the flesh",
+      "Tubers look scabby and are rejected by the market"
+    ],
+    "favourable": [
+      "Soil pH above 6.5, especially 7.0–8.0",
+      "Dry soil conditions during tuber formation",
+      "Continuous potato cropping and fresh manure application"
+    ],
+    "spread": "Soil-borne; survives indefinitely in soil. Also spread by infected seed tubers.",
+    "management": {
+      "cultural": [
+        "Lower soil pH to about 5.5 with elemental sulphur or acidifying fertilisers.",
+        "Use certified disease-free seed tubers.",
+        "Rotate with a cereal or a legume.",
+        "Keep soil moist during tuber formation."
+      ],
+      "organic": [
+        "Apply well-decomposed organic matter rather than fresh manure.",
+        "Green manuring with mustard reduces scab incidence."
+      ],
+      "chemical": [
+        "Seed treatment with mancozeb at 3 g/L dip.",
+        "Soil acidification works better than any fungicide against scab."
+      ]
+    },
+    "prevention": [
+      "Acidify soil where scab is a recurring problem.",
+      "Rotate out of potato for 3 years."
+    ],
+    "visual_signatures": ["dark_necrotic_spots", "uniform_chlorosis"]
+  },
+  {
+    "id": "potato-black-scurf",
+    "name": "Potato Black Scurf",
+    "crops": ["Potato"],
+    "crop_ids": ["potato"],
+    "pathogen_type": "Fungal",
+    "pathogen": "Rhizoctonia solani",
+    "severity": "medium",
+    "overview": "Black, hard sclerotia stick to the tuber surface like specks of soil that will not wash off. The fungus also causes stem canker and poor emergence.",
+    "image_cues": "Photograph the tuber surface. Look for small black irregular particles firmly attached and difficult to remove.",
+    "symptoms": [
+      "Black irregular sclerotia firmly attached to the tuber surface",
+      "Stem canker causing reddish-brown lesions at the stem base",
+      "Delayed emergence and uneven stand",
+      "Tubers with corky tissue over the lenticels"
+    ],
+    "favourable": [
+      "Cool wet soil at planting",
+      "Continuous potato cropping with infected seed",
+      "Heavy residue in no-till situations"
+    ],
+    "spread": "Sclerotia survive in soil and on seed tubers for years.",
+    "management": {
+      "cultural": [
+        "Use certified clean seed tubers.",
+        "Rotate with a cereal crop.",
+        "Harvest promptly in dry weather and avoid skinning."
+      ],
+      "organic": [
+        "Seed treatment with Trichoderma viride.",
+        "Green manuring to encourage microbial antagonism."
+      ],
+      "chemical": [
+        "Seed tuber treatment with boric acid 3% or mancozeb 3 g/L for 20 minutes.",
+        "Pencycuron or flutolanil seed treatment where available."
+      ]
+    },
+    "prevention": [
+      "Never plant seed tubers showing black specks.",
+      "Rotate crops and use clean seed."
+    ],
+    "visual_signatures": ["black_spots", "dark_necrotic_spots"]
+  },
+  {
+    "id": "onion-purple-blotch",
+    "name": "Onion Purple Blotch",
+    "crops": ["Onion"],
+    "crop_ids": ["onion"],
+    "pathogen_type": "Fungal",
+    "pathogen": "Alternaria porri",
+    "severity": "high",
+    "overview": "The most important foliar disease of onion. Purple blotches on leaves reduce bulb size, and the disease spreads fast in warm humid weather.",
+    "image_cues": "Photograph affected leaves. Look for small water-soaked lesions enlarging into purple-brown blotches with concentric rings.",
+    "symptoms": [
+      "Small water-soaked lesions that enlarge into purple-brown blotches",
+      "Concentric rings within the blotch, often with a yellow margin",
+      "Leaves die back from the tip, reducing bulb size",
+      "Soft rot may follow on the bulb"
+    ],
+    "favourable": [
+      "Warm humid weather 25–30 °C with dew or rain",
+      "Dense canopy and prolonged leaf wetness",
+      "Continuous onion cropping"
+    ],
+    "spread": "Airborne spores and residue-borne inoculum; also seed-borne.",
+    "management": {
+      "cultural": [
+        "Rotate away from onion and garlic for at least 2 years.",
+        "Avoid overhead irrigation late in the day.",
+        "Remove and destroy infected leaves.",
+        "Ensure good spacing for air movement."
+      ],
+      "organic": [
+        "Bordeaux mixture 1% protective spray.",
+        "Bacillus subtilis biospray.",
+        "Neem oil spray as a supportive measure."
+      ],
+      "chemical": [
+        "Mancozeb 2.5 g/L or chlorothalonil 2 g/L at first symptoms.",
+        "Difenoconazole 1 ml/L or propiconazole 1 ml/L for a stronger effect.",
+        "Repeat at 10–12 day intervals."
+      ]
+    },
+    "prevention": [
+      "Treat seed and follow crop rotation.",
+      "Spray protectively when warm humid weather is predicted."
+    ],
+    "visual_signatures": ["purple_blotch", "concentric_rings", "dark_necrotic_spots", "yellow_halo_spots"]
+  },
+  {
+    "id": "onion-downy-mildew",
+    "name": "Onion Downy Mildew",
+    "crops": ["Onion"],
+    "crop_ids": ["onion"],
+    "pathogen_type": "Fungal (Oomycete)",
+    "pathogen": "Peronospora destructor",
+    "severity": "high",
+    "overview": "A cool, humid-weather disease that produces pale elongated patches with a grey-violet fuzzy growth on the leaf. It spreads very fast in wet weather.",
+    "image_cues": "Photograph the leaf in morning light. Look for pale elongated patches covered with a grey-violet fuzzy mould.",
+    "symptoms": [
+      "Pale yellow elongated patches on the leaves",
+      "Grey-violet downy mould on the leaf surface in humid mornings",
+      "Leaf tips curl, wither and die back",
+      "Poor bulb development and neck softening"
+    ],
+    "favourable": [
+      "Cool temperature 10–20 °C with high humidity and dew",
+      "Prolonged leaf wetness and fog",
+      "Dense planting in low-lying fields"
+    ],
+    "spread": "Airborne spores and infected sets or volunteers. Spores travel long distances.",
+    "management": {
+      "cultural": [
+        "Use clean sets and rotate crops.",
+        "Improve air movement and avoid evening irrigation.",
+        "Remove volunteer onions around the field."
+      ],
+      "organic": [
+        "Bordeaux mixture 1% protective spray.",
+        "Copper hydroxide sprays are the mainstay of organic control."
+      ],
+      "chemical": [
+        "Metalaxyl + mancozeb 2.5 g/L at first symptoms.",
+        "Cymoxanil or dimethomorph sprays in wet weather.",
+        "Repeat every 7–10 days while conditions favour the disease."
+      ]
+    },
+    "prevention": [
+      "Do not overhead irrigate during cool humid spells.",
+      "Rotate away from alliums for 2–3 years."
+    ],
+    "visual_signatures": ["gray_fuzz", "uniform_chlorosis", "white_powder", "silvery_streaks"]
+  },
+  {
+    "id": "onion-neck-rot",
+    "name": "Onion Neck Rot",
+    "crops": ["Onion"],
+    "crop_ids": ["onion"],
+    "pathogen_type": "Fungal",
+    "pathogen": "Botrytis allii / B. aclada",
+    "severity": "medium",
+    "overview": "A storage disease that softens the neck and shoulders of the bulb. Symptoms often appear after harvest during storage, causing major post-harvest losses.",
+    "image_cues": "Photograph a stored bulb showing a soft, grey-brown neck. No field symptoms are usually visible.",
+    "symptoms": [
+      "Softening and grey-brown discolouration at the neck of the bulb",
+      "White to grey fuzzy mould on the neck during storage",
+      "Bulb tissue becomes watery and rots",
+      "Small black sclerotia may form under the dry skin"
+    ],
+    "favourable": [
+      "Wet weather close to harvest",
+      "Late nitrogen application",
+      "Improper curing and humid storage"
+    ],
+    "spread": "Seed-borne and carried on crop debris; infection occurs in the field but shows up in storage.",
+    "management": {
+      "cultural": [
+        "Stop nitrogen at least 30 days before harvest.",
+        "Cure bulbs properly with the tops on in a dry, well-ventilated place.",
+        "Store at low humidity with good air circulation.",
+        "Avoid injuring bulbs during harvest."
+      ],
+      "organic": [
+        "Proper curing and dry storage are the key organic measures.",
+        "Trichoderma applications during the season reduce carryover."
+      ],
+      "chemical": [
+        "Carbendazim or mancozeb sprays near harvest in wet weather.",
+        "Seed treatment with thiram reduces seed-borne infection."
+      ]
+    },
+    "prevention": [
+      "Cure thoroughly and store dry; this is more important than any spray.",
+      "Avoid late nitrogen and harvest at the correct maturity."
+    ],
+    "visual_signatures": ["gray_fuzz", "white_powder", "dark_necrotic_spots"]
+  },
+  {
+    "id": "chilli-anthracnose",
+    "name": "Chilli Anthracnose (Fruit Rot)",
+    "crops": ["Chilli / Pepper"],
+    "crop_ids": ["chilli"],
+    "pathogen_type": "Fungal",
+    "pathogen": "Colletotrichum capsici / C. gloeosporioides",
+    "severity": "high",
+    "overview": "The most important fruit disease of chilli. Sunken circular spots with concentric rings of black fruiting bodies cause ripe fruit to rot and dry chilli to be rejected.",
+    "image_cues": "Photograph an affected fruit. Look for sunken circular spots with concentric rings of tiny black dots on the surface.",
+    "symptoms": [
+      "Sunken circular spots on fruit with concentric rings of black acervuli",
+      "Fruit rots, shrivels and turns straw coloured",
+      "Spots also appear on leaves and stems in wet weather",
+      "Ripe fruits are affected more than green ones"
+    ],
+    "favourable": [
+      "High humidity and temperature 25–30 °C with rain splash",
+      "Continuous chilli cropping",
+      "Rain followed by hot weather during fruit ripening"
+    ],
+    "spread": "Seed-borne and spread by rain splash and infected residue.",
+    "management": {
+      "cultural": [
+        "Use disease-free seed and treat it before sowing.",
+        "Rotate with a non-host crop for 2 years.",
+        "Mulch to reduce soil splash onto fruit.",
+        "Remove and destroy infected fruits during harvest."
+      ],
+      "organic": [
+        "Bordeaux mixture 1% or copper hydroxide spray.",
+        "Trichoderma and Bacillus bio-fungicides.",
+        "Neem oil spray is useful as part of an integrated schedule."
+      ],
+      "chemical": [
+        "Mancozeb 2.5 g/L or chlorothalonil 2 g/L sprays at fruit set.",
+        "Azoxystrobin 1 ml/L or difenoconazole 1 ml/L for stronger control.",
+        "Spray at 10–12 day intervals during the wet season."
+      ]
+    },
+    "prevention": [
+      "Treat seed with hot water (52 °C for 30 min) or a fungicide.",
+      "Mulch and rotate away from solanaceous crops."
+    ],
+    "visual_signatures": ["concentric_rings", "dark_necrotic_spots", "gray_center_brown_margin"]
+  },
+  {
+    "id": "chilli-powdery-mildew",
+    "name": "Chilli Powdery Mildew",
+    "crops": ["Chilli / Pepper"],
+    "crop_ids": ["chilli"],
+    "pathogen_type": "Fungal",
+    "pathogen": "Leveillula taurica",
+    "severity": "medium",
+    "overview": "A white powdery growth mainly on the underside of chilli leaves that causes severe defoliation and sunscald of fruit in dry warm weather.",
+    "image_cues": "Photograph the leaf underside. White powdery patches are most visible there, with yellowing on the upper surface.",
+    "symptoms": [
+      "White powdery growth mostly on the lower leaf surface",
+      "Chlorotic yellow patches on the corresponding upper surface",
+      "Leaves drop, exposing fruit to sunscald",
+      "Reduced fruit size and number"
+    ],
+    "favourable": [
+      "Warm days and cool nights with high humidity",
+      "Dry weather with heavy dew",
+      "Dense canopy with poor air movement"
+    ],
+    "spread": "Airborne spores spread over long distances in warm dry windy conditions.",
+    "management": {
+      "cultural": [
+        "Reduce plant density and improve air movement.",
+        "Avoid excess nitrogen.",
+        "Remove infected leaves early."
+      ],
+      "organic": [
+        "Wettable sulphur 2 g/L or potassium bicarbonate sprays.",
+        "Milk spray (1 part milk to 9 parts water) gives partial control.",
+        "Neem oil spray."
+      ],
+      "chemical": [
+        "Wettable sulphur 2 g/L or dinocap 1 ml/L.",
+        "Hexaconazole 2 ml/L or penconazole 0.5 ml/L for strong control.",
+        "Spray both leaf surfaces thoroughly."
+      ]
+    },
+    "prevention": [
+      "Maintain good air movement and balanced nutrition.",
+      "Sulphur sprays are the cheapest effective preventive."
+    ],
+    "visual_signatures": ["white_powder", "uniform_chlorosis", "silvery_streaks"]
+  },
+  {
+    "id": "chilli-leaf-curl-virus",
+    "name": "Chilli Leaf Curl Virus",
+    "crops": ["Chilli / Pepper"],
+    "crop_ids": ["chilli"],
+    "pathogen_type": "Viral",
+    "pathogen": "Chilli leaf curl virus (Begomovirus), transmitted by whitefly and thrips",
+    "severity": "high",
+    "overview": "A virus complex spread by thrips and whitefly that puckers and curls leaves, stunts plants and stops fruit set. It is often mistaken for thrips damage.",
+    "image_cues": "Photograph a curled, puckered leaf with thickened veins and cupped margins. Compare with a healthy leaf in the same photo if possible.",
+    "symptoms": [
+      "Upward curling, puckering and cupping of leaves",
+      "Thickened veins and a boat-shaped leaf appearance",
+      "Severe stunting with a bushy, bunchy top",
+      "Heavy flower drop and almost no fruit set"
+    ],
+    "favourable": [
+      "High populations of whitefly or thrips in warm dry weather",
+      "Continuous chilli cropping",
+      "Weed hosts around the field"
+    ],
+    "spread": "Spread by whitefly and thrips vectors. The virus survives in weed and crop hosts.",
+    "management": {
+      "cultural": [
+        "Grow resistant varieties where available.",
+        "Remove infected plants early.",
+        "Control weeds that host the vectors.",
+        "Use insect-proof nursery nets to raise clean seedlings."
+      ],
+      "organic": [
+        "Yellow and blue sticky traps to control vectors.",
+        "Neem oil spray reduces vector populations.",
+        "Conserve natural predators."
+      ],
+      "chemical": [
+        "Manage vectors with spinosad or imidacloprid from the seedling stage.",
+        "Thrips control with fipronil or spinetoram.",
+        "No cure for the virus — vector control is the only strategy."
+      ]
+    },
+    "prevention": [
+      "Raise seedlings under net and control vectors from day one.",
+      "Rogue out infected plants and manage weeds."
+    ],
+    "visual_signatures": ["leaf_curl", "mosaic_mottle", "uniform_chlorosis"]
+  },
+  {
+    "id": "banana-panama-wilt",
+    "name": "Banana Panama Wilt (TR4)",
+    "crops": ["Banana"],
+    "crop_ids": ["banana"],
+    "pathogen_type": "Fungal",
+    "pathogen": "Fusarium oxysporum f. sp. cubense (Tropical Race 4)",
+    "severity": "high",
+    "overview": "The most destructive banana disease worldwide. TR4 survives in soil for decades and there is no chemical cure, making it a quarantine-level threat.",
+    "image_cues": "Photograph a yellowing plant and a cut pseudostem. Look for split stems showing reddish-brown internal streaks.",
+    "symptoms": [
+      "Yellowing of older leaves starting at the margins, progressing upward",
+      "Leaves collapse and hang around the pseudostem like a skirt",
+      "The pseudostem splits at the base and shows reddish-brown vascular streaks",
+      "The plant dies without producing a marketable bunch"
+    ],
+    "favourable": [
+      "Infected planting material and infested soil",
+      "Warm soils with poor drainage",
+      "Continuous banana cropping with susceptible varieties"
+    ],
+    "spread": "Spread by infected suckers, soil, water, farm tools and footwear. Survives in soil for 30+ years.",
+    "management": {
+      "cultural": [
+        "Use only tissue-culture plantlets from a certified source.",
+        "Quarantine the infected block and do not move soil or tools out.",
+        "Uproot and destroy infected plants including the corm.",
+        "Disinfect tools and footwear thoroughly (bleach or flame).",
+        "Grow resistant varieties or move to a clean field."
+      ],
+      "organic": [
+        "No effective organic cure; strict sanitation is the only option.",
+        "Bio-control agents such as Trichoderma may slow the buildup."
+      ],
+      "chemical": [
+        "No effective chemical control exists.",
+        "Soil fumigation is impractical at scale and is not recommended."
+      ]
+    },
+    "prevention": [
+      "Never plant suckers from an unknown or diseased source.",
+      "Sanitise tools and restrict movement through the field."
+    ],
+    "visual_signatures": ["uniform_chlorosis", "patchy_wilting", "yellow_margin"]
+  },
+  {
+    "id": "banana-sigatoka-leaf-spot",
+    "name": "Banana Sigatoka Leaf Spot",
+    "crops": ["Banana"],
+    "crop_ids": ["banana"],
+    "pathogen_type": "Fungal",
+    "pathogen": "Pseudocercospora fijiensis / Mycosphaerella musicola",
+    "severity": "high",
+    "overview": "Leaf spotting that kills functional leaf area, reducing bunch weight significantly. Black Sigatoka is the more aggressive form.",
+    "image_cues": "Photograph a leaf. Look for small dark streaks that enlarge into grey-centred spots with a dark border and a yellow halo.",
+    "symptoms": [
+      "Small dark streaks on the leaf that become oval spots",
+      "Grey or ash-coloured centres with a dark brown border and yellow halo",
+      "Lesions merge, and large areas of the leaf die",
+      "Premature leaf death reduces bunch size and finger length"
+    ],
+    "favourable": [
+      "High humidity and temperature 25–30 °C with frequent rain or heavy dew",
+      "Dense plantations with poor air movement",
+      "Continuous banana cropping"
+    ],
+    "spread": "Airborne spores spread within and between plantations over long distances.",
+    "management": {
+      "cultural": [
+        "Remove and destroy severely infected leaves (deleafing).",
+        "Maintain correct spacing and good drainage.",
+        "Grow tolerant varieties and keep the plantation well nourished with potassium.",
+        "Bag bunches to protect them."
+      ],
+      "organic": [
+        "Mineral oil or neem oil sprays reduce the disease.",
+        "Regular deleafing reduces inoculum strongly.",
+        "Potassium-rich nutrition improves tolerance."
+      ],
+      "chemical": [
+        "Propiconazole 1 ml/L or mancozeb 2.5 g/L with oil in the spray.",
+        "Rotate systemic and contact fungicides to prevent resistance.",
+        "Spray during dry intervals and cover the leaf underside."
+      ]
+    },
+    "prevention": [
+      "Keep the plantation open and remove infected leaves regularly.",
+      "Maintain strong potassium nutrition."
+    ],
+    "visual_signatures": ["gray_center_brown_margin", "dark_necrotic_spots", "yellow_halo_spots", "uniform_chlorosis"]
+  },
+  {
+    "id": "banana-bunchy-top-virus",
+    "name": "Banana Bunchy Top Virus",
+    "crops": ["Banana"],
+    "crop_ids": ["banana"],
+    "pathogen_type": "Viral",
+    "pathogen": "Banana bunchy top virus, transmitted by the banana aphid",
+    "severity": "high",
+    "overview": "An aphid-transmitted virus that produces a distinctive bunchy, rosetted top of narrow leaves. Infected plants never produce a usable bunch.",
+    "image_cues": "Photograph the plant crown. Look for narrow, upright, crowded leaves forming a rosette and dark green dot-dash streaks on the petiole.",
+    "symptoms": [
+      "Narrow, stiff, upright leaves crowded at the top (bunchy top)",
+      "Dark green dot-dash streaks along the leaf midrib and petiole",
+      "Severely stunted plants with no bunch formation",
+      "Leaves become brittle and may fail to unfurl"
+    ],
+    "favourable": [
+      "Presence of the banana aphid vector",
+      "Use of infected suckers",
+      "Continuous banana cropping"
+    ],
+    "spread": "Spread by infected suckers and by the banana aphid. Not spread by soil or tools.",
+    "management": {
+      "cultural": [
+        "Use only certified virus-free tissue-culture plantlets.",
+        "Uproot and destroy infected plants including the corm (do not just cut the top).",
+        "Control the aphid vector.",
+        "Avoid taking suckers from affected plantations."
+      ],
+      "organic": [
+        "Remove infected plants immediately.",
+        "Neem oil for aphid suppression.",
+        "Encourage natural aphid predators."
+      ],
+      "chemical": [
+        "Control the banana aphid with imidacloprid or thiamethoxam.",
+        "There is no cure for the virus itself."
+      ]
+    },
+    "prevention": [
+      "Plant only certified virus-free material.",
+      "Destroy infected plants entirely and manage aphids."
+    ],
+    "visual_signatures": ["leaf_curl", "uniform_chlorosis", "dark_necrotic_spots"]
+  },
+  {
+    "id": "brinjal-little-leaf",
+    "name": "Brinjal Little Leaf",
+    "crops": ["Brinjal (Eggplant)"],
+    "crop_ids": ["brinjal"],
+    "pathogen_type": "Phytoplasma",
+    "pathogen": "Brinjal little leaf phytoplasma, transmitted by leafhoppers",
+    "severity": "high",
+    "overview": "A phytoplasma disease that turns leaves small and yellow and stops fruiting. Affected plants are useless and should be removed.",
+    "image_cues": "Photograph a whole plant. Look for very small, narrow, yellowish leaves on a stunted bushy plant.",
+    "symptoms": [
+      "Extremely small, narrow leaves clustered on the plant",
+      "Leaves turn pale yellow to whitish green",
+      "Plants become bushy and stunted",
+      "Flowering and fruiting almost completely stop"
+    ],
+    "favourable": [
+      "Presence of leafhopper vectors in warm weather",
+      "Continuous brinjal cropping",
+      "Weed hosts around the field"
+    ],
+    "spread": "Transmitted by leafhoppers; also spread through grafting and dodder. Survives in weed hosts.",
+    "management": {
+      "cultural": [
+        "Uproot and destroy affected plants immediately.",
+        "Remove weeds that host the phytoplasma and leafhoppers.",
+        "Rotate with a non-host crop.",
+        "Use tolerant varieties."
+      ],
+      "organic": [
+        "Rogueing out affected plants is the main measure.",
+        "Neem oil spray to reduce leafhopper numbers.",
+        "Use yellow sticky traps for monitoring."
+      ],
+      "chemical": [
+        "Control leafhoppers with imidacloprid or thiamethoxam sprays.",
+        "Tetracycline injections give temporary remission but are not practical."
+      ]
+    },
+    "prevention": [
+      "Rogue out affected plants and manage leafhopper vectors early.",
+      "Keep the field and its borders weed-free."
+    ],
+    "visual_signatures": ["uniform_chlorosis", "leaf_curl", "silvery_streaks"]
+  },
+  {
+    "id": "powdery-mildew-general",
+    "name": "Powdery Mildew (General)",
+    "crops": ["Tomato", "Chilli / Pepper", "Brinjal (Eggplant)"],
+    "crop_ids": ["tomato", "chilli", "brinjal"],
+    "pathogen_type": "Fungal",
+    "pathogen": "Erysiphe, Leveillula, Oidium species",
+    "severity": "medium",
+    "overview": "A very common white powdery fungal growth on many vegetable crops. It spreads quickly in warm dry days with cool humid nights and can defoliate plants.",
+    "image_cues": "Photograph the leaf surface where the white powder is thickest. Take a close-up so the powdery texture is visible.",
+    "symptoms": [
+      "White to grey powdery patches on leaves, stems and sometimes fruit",
+      "The powder rubs off and leaves yellow or brown tissue underneath",
+      "Leaves curl, dry and drop prematurely",
+      "Reduced fruit size, sunscald and yield loss"
+    ],
+    "favourable": [
+      "Warm dry days with cool humid nights and heavy dew",
+      "Dense canopy with poor air circulation",
+      "Excess nitrogen and shaded, humid conditions"
+    ],
+    "spread": "Airborne spores spread long distances in wind. Survives on crop residue and weed hosts.",
+    "management": {
+      "cultural": [
+        "Improve air movement and avoid very dense planting.",
+        "Avoid excess nitrogen; maintain balanced nutrition.",
+        "Remove and destroy infected leaves early."
+      ],
+      "organic": [
+        "Wettable sulphur 2 g/L spray.",
+        "Potassium bicarbonate (5 g/L) or diluted milk spray (1:9).",
+        "Neem oil spray as a supportive treatment."
+      ],
+      "chemical": [
+        "Wettable sulphur 2 g/L or dinocap 1 ml/L.",
+        "Hexaconazole 2 ml/L or penconazole 0.5 ml/L.",
+        "Cover both leaf surfaces for effective control."
+      ]
+    },
+    "prevention": [
+      "Maintain good airflow and balanced fertilisation.",
+      "Sulphur sprays are a cheap and effective preventive."
+    ],
+    "visual_signatures": ["white_powder", "uniform_chlorosis", "silvery_streaks"]
+  }
+]

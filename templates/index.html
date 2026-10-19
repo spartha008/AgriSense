@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>AgriSense &middot; Intelligent Farming Assistant</title>
+<meta name="description" content="AgriSense is a farming assistant for crop care guidance, weather-based advisory, irrigation planning, crop disease diagnosis and seasonal reminders.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E%F0%9F%8C%B1%3C/text%3E%3C/svg%3E">
+</head>
+<body>
+
+<div class="app">
+
+  <!-- ============================= sidebar ============================= -->
+  <aside class="sidebar" id="sidebar">
+    <div class="brand">
+      <div class="brand-mark">🌱</div>
+      <div class="brand-text">
+        <strong>AgriSense</strong>
+        <span>Intelligent Farming Assistant</span>
+      </div>
+    </div>
+
+    <nav class="nav" id="nav">
+      <button class="nav-item active" data-view="dashboard"><span class="nav-ico">🏠</span> Dashboard</button>
+      <button class="nav-item" data-view="crops"><span class="nav-ico">🌾</span> Crop Guide</button>
+      <button class="nav-item" data-view="weather"><span class="nav-ico">⛅</span> Weather Advisory</button>
+      <button class="nav-item" data-view="irrigation"><span class="nav-ico">💧</span> Irrigation Planner</button>
+      <button class="nav-item" data-view="disease"><span class="nav-ico">🔬</span> Disease Centre</button>
+      <button class="nav-item" data-view="tips"><span class="nav-ico">📅</span> Tips &amp; Season</button>
+    </nav>
+
+    <div class="sidebar-foot">
+      <div class="mini-card" id="sidebarWeather">
+        <div class="mini-title">Weather</div>
+        <div class="mini-body">Search a location in the Weather tab to load a live advisory.</div>
+      </div>
+      <div class="credit">Offline disease analyzer &middot; Open-Meteo weather</div>
+    </div>
+  </aside>
+
+  <!-- ============================= main ============================= -->
+  <main class="main">
+    <header class="topbar">
+      <button class="icon-btn menu-btn" id="menuBtn" aria-label="Menu">☰</button>
+      <div class="topbar-title" id="topbarTitle">Dashboard</div>
+      <div class="topbar-right">
+        <span class="live-dot" id="liveDot"></span>
+        <span class="topbar-sub" id="topbarSub">Loading&hellip;</span>
+      </div>
+    </header>
+
+    <div class="content">
+
+      <!-- ------------------------- dashboard ------------------------- -->
+      <section class="view active" id="view-dashboard">
+        <div class="hero">
+          <div class="hero-copy">
+            <div class="pill">🌍 Agriculture &times; Artificial Intelligence</div>
+            <h1>Farm smarter with the information you already have around you.</h1>
+            <p>AgriSense brings crop-care guidance, weather-based advisories, irrigation planning,
+               disease diagnosis and seasonal reminders into one simple assistant &mdash; so every
+               decision about water, nutrients and crop health is an informed one.</p>
+            <div class="hero-actions">
+              <button class="btn primary" data-goto="weather">Check my weather</button>
+              <button class="btn ghost" data-goto="disease">Diagnose a leaf</button>
+              <button class="btn ghost" data-goto="crops">Browse crops</button>
+            </div>
+          </div>
+          <div class="hero-art" aria-hidden="true">
+            <div class="art-ring"></div>
+            <div class="art-emoji">🌾</div>
+          </div>
+        </div>
+
+        <div class="stat-row" id="statRow"></div>
+
+        <div class="grid two">
+          <div class="card" id="seasonCard">
+            <div class="card-head"><h2>Seasonal focus</h2><span class="muted" id="seasonTag"></span></div>
+            <div class="card-body" id="seasonBody"></div>
+          </div>
+
+          <div class="card">
+            <div class="card-head"><h2>Quick actions</h2></div>
+            <div class="card-body quick-actions">
+              <button class="quick" data-goto="weather"><span>⛅</span><b>Weather advisory</b><small>7-day plan, spray windows, alerts</small></button>
+              <button class="quick" data-goto="irrigation"><span>💧</span><b>Irrigation planner</b><small>How much water, and when</small></button>
+              <button class="quick" data-goto="disease"><span>🔬</span><b>Disease diagnosis</b><small>Photo or symptom based</small></button>
+              <button class="quick" data-goto="crops"><span>🌱</span><b>Crop care guide</b><small>16 crops, stage by stage</small></button>
+            </div>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="card-head"><h2>Farming tips worth acting on</h2>
+            <button class="link" data-goto="tips">See all tips →</button></div>
+          <div class="card-body" id="dashTips"></div>
+        </div>
+      </section>
+
+      <!-- ------------------------- crops ------------------------- -->
+      <section class="view" id="view-crops">
+        <div class="section-head">
+          <div>
+            <h2>Crop selection &amp; care guidance</h2>
+            <p class="muted">Pick a crop to see sowing windows, soil needs, a step-by-step fertiliser
+               schedule, irrigation guidance, common pests and the diseases to watch for.</p>
+          </div>
+        </div>
+        <div class="filter-bar">
+          <input type="search" id="cropSearch" class="input" placeholder="Search a crop (rice, tomato, cotton&hellip;)">
+          <select id="cropCategory" class="input"><option value="">All categories</option></select>
+        </div>
+        <div class="grid three" id="cropGrid"></div>
+      </section>
+
+      <!-- ------------------------- weather ------------------------- -->
+      <section class="view" id="view-weather">
+        <div class="section-head">
+          <div>
+            <h2>Weather-based farming advisory</h2>
+            <p class="muted">Live forecast from Open-Meteo, translated into decisions: what to spray,
+               when to irrigate, what to protect and when to keep out of the field.</p>
+          </div>
+        </div>
+
+        <div class="card card--overflow">
+          <div class="card-body">
+            <div class="filter-bar">
+              <div class="ac-wrap">
+                <input type="search" id="locInput" class="input" placeholder="Enter a town or district&hellip;" autocomplete="off">
+                <div class="ac-list" id="locSuggest"></div>
+              </div>
+              <select id="advCrop" class="input"><option value="">Any crop</option></select>
+              <select id="advStage" class="input">
+                <option value="">Any stage</option>
+                <option value="establishment">Establishment / nursery</option>
+                <option value="vegetative">Vegetative growth</option>
+                <option value="flowering">Flowering / reproductive</option>
+                <option value="filling">Fruit / grain filling</option>
+                <option value="maturity">Maturity / ripening</option>
+              </select>
+              <button class="btn primary" id="weatherBtn">Get advisory</button>
+              <button class="btn ghost" id="geoBtn" title="Use my current location">📍 Use my location</button>
+            </div>
+            <div class="chip-row" id="quickPlaces"></div>
+          </div>
+        </div>
+
+        <div id="weatherOut">
+          <div class="empty">No weather loaded yet. Search a location above, or pick a quick place.</div>
+        </div>
+      </section>
+
+      <!-- ------------------------- irrigation ------------------------- -->
+      <section class="view" id="view-irrigation">
+        <div class="section-head">
+          <div>
+            <h2>Irrigation planning</h2>
+            <p class="muted">A FAO-56 style water balance: crop coefficient &times; reference
+               evapotranspiration, minus effective rainfall, limited by the water your soil can hold.</p>
+          </div>
+        </div>
+
+        <div class="grid two-irr">
+          <div class="card">
+            <div class="card-head"><h2>Field details</h2></div>
+            <div class="card-body">
+              <form id="irrForm" class="form-grid">
+                <label>Crop
+                  <select name="crop_id" id="irrCrop" class="input"></select>
+                </label>
+                <label>Growth stage
+                  <select name="stage" id="irrStage" class="input"></select>
+                </label>
+                <label>Soil type
+                  <select name="soil_type" id="irrSoil" class="input"></select>
+                </label>
+                <label>Irrigation method
+                  <select name="method" id="irrMethod" class="input"></select>
+                </label>
+                <label>Area
+                  <input type="number" name="area" id="irrArea" class="input" value="1" min="0.01" step="0.1">
+                </label>
+                <label>Area unit
+                  <select name="area_unit" id="irrUnit" class="input"></select>
+                </label>
+                <label>Reference ET&#8320; (mm/day)
+                  <input type="number" name="et0" id="irrEt0" class="input" value="4.0" min="0.5" max="12" step="0.1">
+                </label>
+                <label>Rain forecast (mm, next days)
+                  <input type="number" name="rain_forecast_mm" id="irrRain" class="input" value="0" min="0" step="1">
+                </label>
+                <label>Rain already received (mm)
+                  <input type="number" name="rain_recent_mm" id="irrRainRecent" class="input" value="0" min="0" step="1">
+                </label>
+                <label>Days since last irrigation
+                  <input type="number" name="last_irrigation_days_ago" id="irrLast" class="input" value="5" min="0" max="60" step="1">
+                </label>
+                <div class="form-actions">
+                  <button class="btn primary" type="submit">Plan irrigation</button>
+                  <button class="btn ghost" type="button" id="irrFromWeather">Use my last weather</button>
+                </div>
+                <p class="hint" id="irrSync"></p>
+              </form>
+            </div>
+          </div>
+
+          <div id="irrOut">
+            <div class="empty">Fill in the field details and press <b>Plan irrigation</b> to get a depth,
+              an interval and a water volume.</div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ------------------------- disease ------------------------- -->
+      <section class="view" id="view-disease">
+        <div class="section-head">
+          <div>
+            <h2>Crop disease information &amp; diagnosis</h2>
+            <p class="muted">Search the catalogue of 47 diseases, or run an offline leaf-image analysis
+               combined with a quick symptom check.</p>
+          </div>
+        </div>
+
+        <div class="card diag-card">
+          <div class="card-head"><h2>🔬 Diagnose from a photo or symptoms</h2>
+            <span class="badge soft">Runs offline on the server</span></div>
+          <div class="card-body">
+            <div class="diag-grid">
+              <div>
+                <label class="field-label">1. Crop (optional, sharpens the result)</label>
+                <select id="diagCrop" class="input"></select>
+
+                <label class="field-label">2. Leaf photo (optional)</label>
+                <div class="dropzone" id="dropzone">
+                  <input type="file" id="diagImage" accept="image/*" hidden>
+                  <div class="dz-inner" id="dzInner">
+                    <span class="dz-ico">📷</span>
+                    <b>Click or drop a leaf photo</b>
+                    <small>Fill the frame with one leaf. JPG or PNG, up to 12 MB.</small>
+                  </div>
+                  <img id="dzPreview" alt="Selected leaf preview">
+                </div>
+                <button class="btn ghost tiny" id="clearImage" type="button" hidden>Remove photo</button>
+              </div>
+
+              <div>
+                <label class="field-label">3. What do you see? (optional, strongly improves accuracy)</label>
+                <div class="symptom-list" id="symptomList"></div>
+                <div class="form-actions">
+                  <button class="btn primary" id="diagBtn" type="button">Analyse</button>
+                  <button class="btn ghost" id="diagReset" type="button">Reset</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div id="diagOut"></div>
+
+        <div class="section-head sub">
+          <div><h2>Disease catalogue</h2>
+            <p class="muted">Symptoms, favourable conditions, spread and an integrated management plan
+               for each disease.</p></div>
+        </div>
+        <div class="filter-bar">
+          <input type="search" id="disSearch" class="input" placeholder="Search a disease or symptom (blast, rust, wilt&hellip;)">
+          <select id="disCrop" class="input"><option value="">All crops</option></select>
+          <select id="disType" class="input"><option value="">All types</option></select>
+        </div>
+        <div class="dis-list" id="disList"></div>
+      </section>
+
+      <!-- ------------------------- tips ------------------------- -->
+      <section class="view" id="view-tips">
+        <div class="section-head">
+          <div>
+            <h2>Seasonal reminders &amp; farming tips</h2>
+            <p class="muted">A month-by-month field calendar for Indian farming seasons, plus practical
+               tips that pay back quickly.</p>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="card-head"><h2>Month-by-month calendar</h2><span class="muted" id="calTag"></span></div>
+          <div class="card-body">
+            <div class="month-strip" id="monthStrip"></div>
+            <div id="monthDetail" class="month-detail"></div>
+          </div>
+        </div>
+
+        <div class="filter-bar">
+          <div class="chip-row" id="tipChips"></div>
+          <input type="search" id="tipSearch" class="input" placeholder="Search tips&hellip;">
+        </div>
+        <div class="grid two" id="tipGrid"></div>
+      </section>
+
+    </div>
+
+    <footer class="foot">
+      <span>AgriSense &mdash; Intelligent Farming Assistant</span>
+      <span class="muted">Weather: Open-Meteo &middot; Knowledge base: 16 crops, 47 diseases, 26 tips</span>
+    </footer>
+  </main>
+</div>
+
+<!-- ============================= modal ============================= -->
+<div class="modal" id="modal" hidden>
+  <div class="modal-backdrop" data-close></div>
+  <div class="modal-panel" role="dialog" aria-modal="true">
+    <button class="modal-close" data-close aria-label="Close">✕</button>
+    <div class="modal-body" id="modalBody"></div>
+  </div>
+</div>
+
+<div class="toast" id="toast" hidden></div>
+
+<script src="{{ url_for('static', filename='js/app.js') }}"></script>
+</body>
+</html>
